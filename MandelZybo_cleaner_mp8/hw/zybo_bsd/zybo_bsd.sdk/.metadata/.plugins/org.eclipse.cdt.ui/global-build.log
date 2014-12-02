@@ -1,0 +1,909 @@
+17:50:43 **** Incremental Build of configuration Release for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O2 -c -fmessage-length=0 -I../../MandelRISC_cleaner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+In file included from ../src/display_ctrl.c:56:0:
+../src/display_ctrl.h:54:23: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+                       ^
+compilation terminated.
+make: *** [src/display_ctrl.o] Error 1
+
+17:50:44 Build Finished (took 593ms)
+
+17:50:44 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../MandelRISC_cleaner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+In file included from ../src/display_ctrl.c:56:0:
+../src/display_ctrl.h:54:23: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+                       ^
+compilation terminated.
+make: *** [src/display_ctrl.o] Error 1
+17:51:12 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../MandelRISC_cleaner_bsp/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+In file included from ../src/display_ctrl.c:56:0:
+../src/display_ctrl.h:54:23: fatal error: xil_types.h: No such file or directory
+ #include "xil_types.h"
+                       ^
+compilation terminated.
+make: *** [src/display_ctrl.o] Error 1
+17:52:47 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling AXI_MandelRISC..."
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+17:53:15 **** Clean-only build of configuration Debug for project MandelRISC_cleaner ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/display_demo.d ./src/main.d ./src/timer_ps.d  MandelRISC_cleaner.elf.size  MandelRISC_cleaner.elf
+' '
+17:53:15 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87984	   2400	24908688	24999072	17d74a0	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+17:53:32 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+19:34:25 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+19:34:26 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+19:34:27 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+19:34:28 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+19:34:29 **** Auto Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling AXI_MandelRISC..."
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+19:35:01 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+19:35:02 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+rm -f ps7_cortexa9_0/lib/libxil.a
+19:35:03 **** Clean-only build of configuration Debug for project MandelRISC_cleaner ****
+make clean 
+rm -rf  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o  ./src/display_ctrl.d ./src/display_demo.d ./src/main.d ./src/timer_ps.d  MandelRISC_cleaner.elf.size  MandelRISC_cleaner.elf
+' '
+19:35:03 **** Build of project standalone_bsp_0 ****
+make -k all 
+"Running Make include in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make include in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s include  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/axi_dispctrl_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axi_dispctrl..."
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl.c:4:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+In file included from axi_dispctrl.h:7:0,
+                 from axi_dispctrl_selftest.c:3:
+../../../include/xbasic_types.h:124:2: warning: #warning The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert. [-Wcpp]
+ #warning  The xbasics_type.h file is deprecated and users should use xil_types.h and xil_assert.
+  ^
+../../../include/xbasic_types.h:125:2: warning: #warning Please refer the Standalone BSP UG647 for further details [-Wcpp]
+ #warning  Please refer the Standalone BSP UG647 for further details
+  ^
+arm-xilinx-eabi-ar: creating ../../../lib/libxil.a
+"Running Make libs in ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src"
+make -C ps7_cortexa9_0/libsrc/axi_mandelrisc_v1_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling AXI_MandelRISC..."
+"Running Make libs in ps7_cortexa9_0/libsrc/axivdma_v5_0/src"
+make -C ps7_cortexa9_0/libsrc/axivdma_v5_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling axivdma"
+"Running Make libs in ps7_cortexa9_0/libsrc/common_v1_00_a/src"
+make -C ps7_cortexa9_0/libsrc/common_v1_00_a/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling common"
+"Running Make libs in ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/cpu_cortexa9_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling cpu_cortexa9"
+"Running Make libs in ps7_cortexa9_0/libsrc/devcfg_v3_1/src"
+make -C ps7_cortexa9_0/libsrc/devcfg_v3_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling devcfg"
+"Running Make libs in ps7_cortexa9_0/libsrc/dmaps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/dmaps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling dmaps"
+"Running Make libs in ps7_cortexa9_0/libsrc/emacps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/emacps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling emacps"
+"Running Make libs in ps7_cortexa9_0/libsrc/iicps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/iicps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling iicps"
+"Running Make libs in ps7_cortexa9_0/libsrc/qspips_v3_0/src"
+make -C ps7_cortexa9_0/libsrc/qspips_v3_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling qspips"
+"Running Make libs in ps7_cortexa9_0/libsrc/scugic_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/scugic_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scugic"
+"Running Make libs in ps7_cortexa9_0/libsrc/scutimer_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scutimer_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scutimer"
+"Running Make libs in ps7_cortexa9_0/libsrc/scuwdt_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/scuwdt_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling scuwdt"
+"Running Make libs in ps7_cortexa9_0/libsrc/sdps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/sdps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling sdps"
+"Running Make libs in ps7_cortexa9_0/libsrc/standalone_v4_1/src"
+make -C ps7_cortexa9_0/libsrc/standalone_v4_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling standalone"
+"Running Make libs in ps7_cortexa9_0/libsrc/uartps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/uartps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling uartps"
+"Running Make libs in ps7_cortexa9_0/libsrc/usbps_v2_1/src"
+make -C ps7_cortexa9_0/libsrc/usbps_v2_1/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling usbps"
+"Running Make libs in ps7_cortexa9_0/libsrc/xadcps_v2_0/src"
+make -C ps7_cortexa9_0/libsrc/xadcps_v2_0/src -s libs  "SHELL=CMD" "COMPILER=arm-xilinx-eabi-gcc" "ARCHIVER=arm-xilinx-eabi-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g"
+"Compiling xadcps"
+'Finished building libraries'
+19:35:18 **** Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_ctrl.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_ctrl.d" -MT"src/display_ctrl.d" -o "src/display_ctrl.o" "../src/display_ctrl.c"
+'Finished building: ../src/display_ctrl.c'
+' '
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/main.d" -MT"src/main.d" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building file: ../src/timer_ps.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/timer_ps.d" -MT"src/timer_ps.d" -o "src/timer_ps.o" "../src/timer_ps.c"
+'Finished building: ../src/timer_ps.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87984	   2400	24908688	24999072	17d74a0	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+14:43:24 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+14:54:32 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87984	   2400	24908688	24999072	17d74a0	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+14:54:43 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+15:04:31 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87984	   2400	24908688	24999072	17d74a0	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+15:07:20 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+15:08:27 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87984	   2400	24908688	24999072	17d74a0	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+15:08:38 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+15:20:46 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'DisplayDemoPrintTest':
+../src/display_demo.c:495:18: warning: assignment makes pointer from integer without a cast [enabled by default]
+   mr_baseaddr[0] = MR_BASEADDR;
+                  ^
+../src/display_demo.c:496:18: warning: assignment makes pointer from integer without a cast [enabled by default]
+   mr_baseaddr[1] = MR1_BASEADDR;
+                  ^
+../src/display_demo.c:497:18: warning: assignment makes pointer from integer without a cast [enabled by default]
+   mr_baseaddr[2] = MR2_BASEADDR;
+                  ^
+../src/display_demo.c:498:18: warning: assignment makes pointer from integer without a cast [enabled by default]
+   mr_baseaddr[3] = MR3_BASEADDR;
+                  ^
+../src/display_demo.c:499:18: warning: assignment makes pointer from integer without a cast [enabled by default]
+   mr_baseaddr[4] = MR4_BASEADDR;
+                  ^
+../src/display_demo.c:500:18: warning: assignment makes pointer from integer without a cast [enabled by default]
+   mr_baseaddr[5] = MR5_BASEADDR;
+                  ^
+../src/display_demo.c:501:18: warning: assignment makes pointer from integer without a cast [enabled by default]
+   mr_baseaddr[6] = MR6_BASEADDR;
+                  ^
+../src/display_demo.c:502:18: warning: assignment makes pointer from integer without a cast [enabled by default]
+   mr_baseaddr[7] = MR7_BASEADDR;
+                  ^
+../src/display_demo.c:506:4: warning: passing argument 1 of 'Xil_Out32' makes integer from pointer without a cast [enabled by default]
+    Xil_Out32(mr_baseaddr[mr_proc] + (u32)4, (u32)0);
+    ^
+In file included from ../../standalone_bsp_0/ps7_cortexa9_0/include/xaxivdma_hw.h:89:0,
+                 from ../../standalone_bsp_0/ps7_cortexa9_0/include/xaxivdma.h:301,
+                 from ../src/display_ctrl.h:56,
+                 from ../src/display_demo.h:33,
+                 from ../src/display_demo.c:29:
+../../standalone_bsp_0/ps7_cortexa9_0/include/xil_io.h:240:6: note: expected 'u32' but argument is of type 'u32 *'
+ void Xil_Out32(u32 Addr, u32 Value);
+      ^
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87960	   2400	24908688	24999048	17d7488	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+15:21:14 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+15:23:46 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87960	   2400	24908688	24999048	17d7488	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+15:24:05 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+15:29:53 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87768	   2400	24908688	24998856	17d73c8	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+15:30:04 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+15:35:13 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'DisplayDemoPrintTest':
+../src/display_demo.c:531:3: error: 'done' undeclared (first use in this function)
+   done = 0;
+   ^
+../src/display_demo.c:531:3: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/display_demo.o] Error 1
+15:35:38 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87640	   2400	24908688	24998728	17d7348	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+15:35:53 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+15:37:05 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+15:41:05 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87640	   2400	24908688	24998728	17d7348	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+16:06:55 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'mr_launch':
+../src/display_demo.c:550:12: error: 'mr_baseaddr' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc] + (u32)4, (u32)0);
+            ^
+../src/display_demo.c:550:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/display_demo.o] Error 1
+16:06:58 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'mr_launch':
+../src/display_demo.c:550:12: error: 'mr_baseaddr' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc] + (u32)4, (u32)0);
+            ^
+../src/display_demo.c:550:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/display_demo.o] Error 1
+16:09:46 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c:547:6: error: conflicting types for 'mr_launch'
+ void mr_launch(u16 mr_proc, u16 start_line, u16 end_line)
+      ^
+In file included from ../src/display_demo.c:29:0:
+../src/display_demo.h:68:6: note: previous declaration of 'mr_launch' was here
+ void mr_launch(u32 mr_baseaddr, u16 start_line, u16 end_line);
+      ^
+../src/display_demo.c: In function 'mr_launch':
+../src/display_demo.c:550:12: error: 'mr_baseaddr' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc] + (u32)4, (u32)0);
+            ^
+../src/display_demo.c:550:12: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/display_demo.o] Error 1
+16:09:49 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87768	   2400	24908688	24998856	17d73c8	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+16:12:03 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87576	   2400	24908688	24998664	17d7308	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+16:12:09 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+16:12:23 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+16:55:14 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87768	   2400	24908688	24998856	17d73c8	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+16:55:24 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.
+16:58:21 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'mr_launch':
+../src/display_demo.c:561:24: error: 'mr_proc' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc], (u32)frame + (stride * start_line));
+                        ^
+../src/display_demo.c:561:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/display_demo.c:561:39: error: 'frame' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc], (u32)frame + (stride * start_line));
+                                       ^
+../src/display_demo.c:561:48: error: 'stride' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc], (u32)frame + (stride * start_line));
+                                                ^
+make: *** [src/display_demo.o] Error 1
+16:59:38 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'mr_launch':
+../src/display_demo.c:565:24: error: 'mr_proc' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc], (u32)frame + (stride * start_line));
+                        ^
+../src/display_demo.c:565:24: note: each undeclared identifier is reported only once for each function it appears in
+../src/display_demo.c:565:39: error: 'frame' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc], (u32)frame + (stride * start_line));
+                                       ^
+../src/display_demo.c:565:48: error: 'stride' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr[mr_proc], (u32)frame + (stride * start_line));
+                                                ^
+make: *** [src/display_demo.o] Error 1
+17:00:06 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'mr_launch':
+../src/display_demo.c:565:30: error: 'frame' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr, (u32)frame + (stride * start_line));
+                              ^
+../src/display_demo.c:565:30: note: each undeclared identifier is reported only once for each function it appears in
+../src/display_demo.c:565:39: error: 'stride' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr, (u32)frame + (stride * start_line));
+                                       ^
+make: *** [src/display_demo.o] Error 1
+17:05:43 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'mr_launch':
+../src/display_demo.c:565:30: error: 'frame' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr, (u32)frame + (7680 * start_line));
+                              ^
+../src/display_demo.c:565:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/display_demo.o] Error 1
+17:08:15 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'DisplayDemoPrintTest':
+../src/display_demo.c:510:4: error: too few arguments to function 'mr_launch'
+    mr_launch(mr_baseaddr[mr_proc], mr_proc * 4, (mr_proc + 1) * 4);
+    ^
+In file included from ../src/display_demo.c:29:0:
+../src/display_demo.h:68:6: note: declared here
+ void mr_launch(u32 mr_baseaddr, u32 frame_addr, u16 start_line, u16 end_line);
+      ^
+../src/display_demo.c:519:6: error: too few arguments to function 'mr_launch'
+      mr_launch(mr_baseaddr[mr_proc], last_line, last_line + 4);
+      ^
+In file included from ../src/display_demo.c:29:0:
+../src/display_demo.h:68:6: note: declared here
+ void mr_launch(u32 mr_baseaddr, u32 frame_addr, u16 start_line, u16 end_line);
+      ^
+../src/display_demo.c: At top level:
+../src/display_demo.c:559:6: error: conflicting types for 'mr_launch'
+ void mr_launch(u32 mr_baseaddr, u16 start_line, u16 end_line)
+      ^
+In file included from ../src/display_demo.c:29:0:
+../src/display_demo.h:68:6: note: previous declaration of 'mr_launch' was here
+ void mr_launch(u32 mr_baseaddr, u32 frame_addr, u16 start_line, u16 end_line);
+      ^
+../src/display_demo.c: In function 'mr_launch':
+../src/display_demo.c:565:30: error: 'frame' undeclared (first use in this function)
+  Xil_Out32(mr_baseaddr, (u32)frame + (7680 * start_line));
+                              ^
+../src/display_demo.c:565:30: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [src/display_demo.o] Error 1
+17:08:59 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+../src/display_demo.c: In function 'DisplayDemoPrintTest':
+../src/display_demo.c:519:6: error: too few arguments to function 'mr_launch'
+      mr_launch(mr_baseaddr[mr_proc], last_line, last_line + 4);
+      ^
+In file included from ../src/display_demo.c:29:0:
+../src/display_demo.h:68:6: note: declared here
+ void mr_launch(u32 mr_baseaddr, u32 frame_addr, u16 start_line, u16 end_line);
+      ^
+make: *** [src/display_demo.o] Error 1
+17:10:23 **** Auto Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+'Building file: ../src/display_demo.c'
+'Invoking: ARM gcc compiler'
+arm-xilinx-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -I../../standalone_bsp_0/ps7_cortexa9_0/include -MMD -MP -MF"src/display_demo.d" -MT"src/display_demo.d" -o "src/display_demo.o" "../src/display_demo.c"
+'Finished building: ../src/display_demo.c'
+' '
+'Building target: MandelRISC_cleaner.elf'
+'Invoking: ARM gcc linker'
+arm-xilinx-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../standalone_bsp_0/ps7_cortexa9_0/lib -o "MandelRISC_cleaner.elf"  ./src/display_ctrl.o ./src/display_demo.o ./src/main.o ./src/timer_ps.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: MandelRISC_cleaner.elf'
+' '
+'Invoking: ARM Print Size'
+arm-xilinx-eabi-size MandelRISC_cleaner.elf  |tee "MandelRISC_cleaner.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  87768	   2400	24908688	24998856	17d73c8	MandelRISC_cleaner.elf
+'Finished building: MandelRISC_cleaner.elf.size'
+' '
+17:10:33 **** Incremental Build of configuration Debug for project MandelRISC_cleaner ****
+make all 
+make: Nothing to be done for `all'.

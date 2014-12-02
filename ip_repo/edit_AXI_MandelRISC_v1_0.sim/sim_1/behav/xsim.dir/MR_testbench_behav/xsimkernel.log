@@ -1,0 +1,5 @@
+Running: xsim.dir/MR_testbench_behav/xsimk.exe -simmode gui -wdb MR_testbench_behav.wdb -simrunnum 0 -socket 56220
+Design successfully loaded
+Design Loading CPU Usage: 93 ms
+Simulation completed
+Simulation CPU Usage: 218 ms

@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MR_testbench_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MR_testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="60" />
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider211">
+      <obj_property name="label">Slave</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s_axi_clk" type="logic">
+      <obj_property name="ElementShortName">s_axi_clk</obj_property>
+      <obj_property name="ObjectShortName">s_axi_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_awaddr" type="array">
+      <obj_property name="ElementShortName">s00_axi_awaddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_awaddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_awvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axi_awvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_awvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_awready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_awready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_awready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_wdata" type="array">
+      <obj_property name="ElementShortName">s00_axi_wdata[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_wdata[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_wvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axi_wvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_wvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_wready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_wready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_wready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_bready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_bready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_bready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_araddr" type="array">
+      <obj_property name="ElementShortName">s00_axi_araddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_araddr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_arvalid" type="logic">
+      <obj_property name="ElementShortName">s00_axi_arvalid</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_arvalid</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/s00_axi_rready" type="logic">
+      <obj_property name="ElementShortName">s00_axi_rready</obj_property>
+      <obj_property name="ObjectShortName">s00_axi_rready</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/S_AXI_ARESETN" type="logic">
+      <obj_property name="ElementShortName">S_AXI_ARESETN</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_ARESETN</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/axi_awaddr" type="array">
+      <obj_property name="ElementShortName">axi_awaddr[3:0]</obj_property>
+      <obj_property name="ObjectShortName">axi_awaddr[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/slv_reg_wren" type="logic">
+      <obj_property name="ElementShortName">slv_reg_wren</obj_property>
+      <obj_property name="ObjectShortName">slv_reg_wren</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/S_AXI_WDATA" type="array">
+      <obj_property name="ElementShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">S_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/slv_reg0" type="array">
+      <obj_property name="ElementShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg0[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/slv_reg1" type="array">
+      <obj_property name="ElementShortName">slv_reg1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/slv_reg2" type="array">
+      <obj_property name="ElementShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/slv_reg3" type="array">
+      <obj_property name="ElementShortName">slv_reg3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">slv_reg3[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/axi_bvalid" type="logic">
+      <obj_property name="ElementShortName">axi_bvalid</obj_property>
+      <obj_property name="ObjectShortName">axi_bvalid</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider212">
+      <obj_property name="label">Master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/m_axi_clk" type="logic">
+      <obj_property name="ElementShortName">m_axi_clk</obj_property>
+      <obj_property name="ObjectShortName">m_axi_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/fb_base_addr" type="array">
+      <obj_property name="ElementShortName">fb_base_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">fb_base_addr[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_AWADDR" type="array">
+      <obj_property name="ElementShortName">M_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWADDR[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_AWVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_AWVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_AWREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_AWREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_AWLEN" type="array">
+      <obj_property name="ElementShortName">M_AXI_AWLEN[7:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWLEN[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_WDATA" type="array">
+      <obj_property name="ElementShortName">M_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WDATA[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_WVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_WVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_WREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_WREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_WLAST" type="logic">
+      <obj_property name="ElementShortName">M_AXI_WLAST</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WLAST</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_WSTRB" type="array">
+      <obj_property name="ElementShortName">M_AXI_WSTRB[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_WSTRB[3:0]</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_AWCACHE" type="array">
+      <obj_property name="ElementShortName">M_AXI_AWCACHE[3:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWCACHE[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_AWBURST" type="array">
+      <obj_property name="ElementShortName">M_AXI_AWBURST[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWBURST[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_AWSIZE" type="array">
+      <obj_property name="ElementShortName">M_AXI_AWSIZE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_AWSIZE[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_BREADY" type="logic">
+      <obj_property name="ElementShortName">M_AXI_BREADY</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_BREADY</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_BVALID" type="logic">
+      <obj_property name="ElementShortName">M_AXI_BVALID</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_BVALID</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/M_AXI_BRESP" type="array">
+      <obj_property name="ElementShortName">M_AXI_BRESP[1:0]</obj_property>
+      <obj_property name="ObjectShortName">M_AXI_BRESP[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider138">
+      <obj_property name="label">MandelRISC</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_clk" type="logic">
+      <obj_property name="ElementShortName">mr_clk</obj_property>
+      <obj_property name="ObjectShortName">mr_clk</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/mr_reset" type="logic">
+      <obj_property name="ElementShortName">mr_reset</obj_property>
+      <obj_property name="ObjectShortName">mr_reset</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/mr_reset_d2" type="logic">
+      <obj_property name="ElementShortName">mr_reset_d2</obj_property>
+      <obj_property name="ObjectShortName">mr_reset_d2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/rd_addr" type="array">
+      <obj_property name="ElementShortName">rd_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">rd_addr[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/rd" type="logic">
+      <obj_property name="ElementShortName">rd</obj_property>
+      <obj_property name="ObjectShortName">rd</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/wr_addr" type="array">
+      <obj_property name="ElementShortName">wr_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">wr_addr[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/wr" type="logic">
+      <obj_property name="ElementShortName">wr</obj_property>
+      <obj_property name="ObjectShortName">wr</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_write" type="logic">
+      <obj_property name="ElementShortName">pixel_write</obj_property>
+      <obj_property name="ObjectShortName">pixel_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/data_out" type="array">
+      <obj_property name="ElementShortName">data_out[39:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out[39:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject type="divider" fp_name="divider246">
+      <obj_property name="label">AXI_Master</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/init_txn_pulse" type="logic">
+      <obj_property name="ElementShortName">init_txn_pulse</obj_property>
+      <obj_property name="ObjectShortName">init_txn_pulse</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/wnext" type="logic">
+      <obj_property name="ElementShortName">wnext</obj_property>
+      <obj_property name="ObjectShortName">wnext</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo_almost_full" type="logic">
+      <obj_property name="ElementShortName">pixel_fifo_almost_full</obj_property>
+      <obj_property name="ObjectShortName">pixel_fifo_almost_full</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/fifo_empty" type="logic">
+      <obj_property name="ElementShortName">fifo_empty</obj_property>
+      <obj_property name="ObjectShortName">fifo_empty</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/write_index" type="array">
+      <obj_property name="ElementShortName">write_index[4:0]</obj_property>
+      <obj_property name="ObjectShortName">write_index[4:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/burst_write_active" type="logic">
+      <obj_property name="ElementShortName">burst_write_active</obj_property>
+      <obj_property name="ObjectShortName">burst_write_active</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/start_single_burst_write" type="logic">
+      <obj_property name="ElementShortName">start_single_burst_write</obj_property>
+      <obj_property name="ObjectShortName">start_single_burst_write</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_M00_AXI_inst/mst_exec_state" type="array">
+      <obj_property name="ElementShortName">mst_exec_state[1:0]</obj_property>
+      <obj_property name="ObjectShortName">mst_exec_state[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" fp_name="/MR_testbench/mr_test1/AXI_MandelRISC_v1_0_S00_AXI_inst/done_bit" type="logic">
+      <obj_property name="ElementShortName">done_bit</obj_property>
+      <obj_property name="ObjectShortName">done_bit</obj_property>
+   </wvobject>
+</wave_config>

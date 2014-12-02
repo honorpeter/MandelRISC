@@ -1,0 +1,32 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.3 (win64) Build 1034051 Fri Oct  3 17:14:12 MDT 2014
+| Date         : Mon Oct 20 23:00:51 2014
+| Host         : Viper running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'async_fifo_32x32'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of async_fifo_32x32 (xilinx.com:ip:fifo_generator:12.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading IP 'async_fifo_32x32'. These changes may impact your design.
+
+
+-upgrade has removed port 'clk'
+-upgraded port 'din' width 32 differs from original width 18
+-upgraded port 'dout' width 32 differs from original width 18
+-upgrade has added port 'almost_full'
+-upgrade has added port 'prog_full'
+-upgrade has added port 'rd_clk'
+-upgrade has added port 'wr_clk'
+

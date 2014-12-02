@@ -1,0 +1,361 @@
+23:47:22 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+23:50:38 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:51:08 INFO  : ps7_init is completed.
+23:51:08 INFO  : ps7_post_config is completed.
+23:51:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+03:15:10 ERROR : Unexpected error while fetching XMD's response: 
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(SocketInputStream.java:196)
+	at java.net.SocketInputStream.read(SocketInputStream.java:122)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.read(BufferedReader.java:175)
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess$CommandResultsReader.run(XMDJSONProcess.java:332)
+	at java.lang.Thread.run(Thread.java:724)
+03:15:10 ERROR : Zero sized response read from XMD. This indicates a communication error or a programming error.
+13:24:14 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+13:24:14 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+13:24:16 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1408520408660,  Project:1408515371527
+13:24:16 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+13:24:16 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+13:24:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:24:47 INFO  : 
+13:24:48 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+13:24:48 INFO  : Clearing existing target manager status.
+13:24:50 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+13:25:43 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+13:26:02 INFO  : ps7_init is completed.
+13:26:02 INFO  : ps7_post_config is completed.
+13:26:02 INFO  : Processor reset is completed for ps7_cortexa9_0
+13:30:01 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:57:10 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:331)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:320)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+15:57:10 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:28:11 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+17:28:11 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+17:35:02 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1408581279697,  Project:1408520408660
+17:35:03 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+17:35:20 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+17:35:53 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:36:08 INFO  : 
+17:36:09 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+17:36:09 INFO  : Clearing existing target manager status.
+17:36:10 INFO  : Closing and re-opening the MSS file of ther project MandelRISC_cleaner_bsp
+17:36:10 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:40:31 ERROR :  [Hsm 55-1433] Error boost::filesystem::create_directory: Access is denied: "D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp/ps7_cortexa9_0"
+17:40:31 ERROR : Error generating bsp sources: Failed to generate BSP.
+17:40:31 ERROR : Failed to regenerate sources for BSP project MandelRISC_cleaner_bsp
+org.eclipse.core.runtime.CoreException: Internal error occurred while generating bsp sources. Please check the SDK Log view for further details.
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.internalGenerateBsp(RegenBspSourcesHandler.java:178)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler.access$2(RegenBspSourcesHandler.java:163)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1$1.run(RegenBspSourcesHandler.java:131)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at com.xilinx.sdk.sw.ui.handlers.RegenBspSourcesHandler$1.run(RegenBspSourcesHandler.java:135)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:121)
+17:53:55 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+17:54:14 INFO  : ps7_init is completed.
+17:54:14 INFO  : ps7_post_config is completed.
+17:54:15 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:56:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:46:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1408589144563,  Project:1408581279697
+19:46:52 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:46:54 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+19:47:25 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:47:39 INFO  : 
+19:47:40 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+19:47:40 INFO  : Clearing existing target manager status.
+19:47:40 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+20:08:54 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:14:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+20:14:57 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+20:15:29 INFO  : ps7_init is completed.
+20:15:29 INFO  : ps7_post_config is completed.
+20:15:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:14:00 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1408594313700,  Project:1408589144563
+21:14:01 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+21:14:06 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+21:14:38 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+21:14:53 INFO  : 
+21:14:54 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+21:14:54 INFO  : Clearing existing target manager status.
+21:14:54 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+21:16:28 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:16:37 INFO  : Processor reset is completed for ps7_cortexa9_0
+21:17:23 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+21:17:38 INFO  : ps7_init is completed.
+21:17:38 INFO  : ps7_post_config is completed.
+21:17:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:45:15 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1408603096106,  Project:1408594313700
+23:45:15 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+23:45:44 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+23:46:15 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:46:29 INFO  : 
+23:46:30 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+23:46:30 INFO  : Clearing existing target manager status.
+23:46:30 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:46:59 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:47:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:48:00 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:48:25 INFO  : ps7_init is completed.
+23:48:25 INFO  : ps7_post_config is completed.
+23:48:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:05:04 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+15:05:04 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+23:24:49 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+23:24:49 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+23:24:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1408688643805,  Project:1408603096106
+23:24:51 INFO  : The hardware specification for project 'system_wrapper_hw_platform_0' is different from D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+23:24:51 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+23:25:17 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:25:34 INFO  : 
+23:25:35 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+23:25:35 INFO  : Clearing existing target manager status.
+23:25:36 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+23:40:11 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:40:38 INFO  : ps7_init is completed.
+23:40:38 INFO  : ps7_post_config is completed.
+23:40:38 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:46:58 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+23:49:04 INFO  : ps7_init is completed.
+23:49:04 INFO  : ps7_post_config is completed.
+23:49:04 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:56:31 INFO  : Processor reset is completed for ps7_cortexa9_0
+23:58:59 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+	at com.xilinx.sdk.targetmanager.internal.json.XMDJSONProcess.issueCommand(XMDJSONProcess.java:144)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectTarget(TM.java:338)
+	at com.xilinx.sdk.targetmanager.internal.TM.disconnectExistingTargets(TM.java:320)
+	at com.xilinx.sdk.targetmanager.internal.TM.terminate(TM.java:210)
+	at com.xilinx.sdk.targetmanager.TMPlugin.stop(TMPlugin.java:57)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:771)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:764)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:510)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:566)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1206)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:592)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:257)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:215)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:284)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:692)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:600)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:399)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:199)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:629)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
+23:58:59 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+09:19:32 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+09:19:32 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+10:08:55 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:21:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:29:05 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+10:29:19 INFO  : ps7_init is completed.
+10:29:19 INFO  : ps7_post_config is completed.
+10:29:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:41:45 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+10:41:48 INFO  : Processor reset is completed for ps7_cortexa9_0
+10:44:24 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:07:36 INFO  : Processor reset is completed for ps7_cortexa9_0
+11:09:30 INFO  : Processor reset is completed for ps7_cortexa9_0
+12:36:31 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1408736165761,  Project:1408688643805
+12:36:32 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+12:36:47 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+12:37:10 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:37:29 INFO  : 
+12:37:29 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+12:37:29 INFO  : Clearing existing target manager status.
+12:37:29 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+12:37:44 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+12:38:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:29:05 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+14:29:19 INFO  : ps7_init is completed.
+14:29:19 INFO  : ps7_post_config is completed.
+14:29:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:32:21 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:39:00 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:54:51 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1408748010918,  Project:1408736165761
+15:54:51 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+15:55:57 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+15:56:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:56:44 INFO  : 
+15:56:45 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+15:56:45 INFO  : Clearing existing target manager status.
+15:56:45 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+15:58:02 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_0/system_wrapper.bit"
+15:58:16 INFO  : ps7_init is completed.
+15:58:16 INFO  : ps7_post_config is completed.
+15:58:16 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:12:07 ERROR : Unable to disconnect from existing targets
+java.lang.NullPointerException
+16:12:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:35:17 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+15:35:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+15:35:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+15:35:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+15:35:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+15:35:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+15:35:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+15:36:10 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+15:36:10 ERROR :  [Hsm 55-1403] D:\Xilinx\MandelZybo_cleaner_mp8\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss line 29 - No IP instance named BTNs_4Bits present in hardware design
+ [Hsm 55-1403] D:\Xilinx\MandelZybo_cleaner_mp8\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss line 35 - No IP instance named LEDs_4Bits present in hardware design
+ [Hsm 55-1403] D:\Xilinx\MandelZybo_cleaner_mp8\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss line 41 - No IP instance named SWs_4Bits present in hardware design
+16:40:09 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+16:40:10 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_1.
+16:40:11 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1409096371224,  Project:1409092458674
+16:40:11 INFO  : The hardware specification for project 'system_wrapper_hw_platform_1' is different from D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+16:40:44 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_1\system.hdf.
+16:41:00 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+16:41:16 INFO  : 
+16:41:17 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+16:41:17 INFO  : Clearing existing target manager status.
+16:41:18 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+17:00:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:44 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:49 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+ [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+CRITICAL WARNING: [Hsm 55-1564] TCL file d:/Xilinx/MandelZybo_cleaner_mp8/hw/lib/Digilent/axi_dispctrl_1.0\drivers\axi_dispctrl_v1_00_a/data/axi_dispctrl.tcl doesn't exist for driver axi_dispctrl
+CRITICAL WARNING: [Hsm 55-1564] TCL file d:/Xilinx/MandelZybo_cleaner_mp8/hw/lib/Digilent/axi_dispctrl_1.0\drivers\axi_dispctrl_v1_00_a/data/axi_dispctrl.tcl doesn't exist for driver axi_dispctrl
+17:00:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:00:50 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:07 INFO  : FPGA configured successfully with bitstream "D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper_hw_platform_1/system_wrapper.bit"
+17:29:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:13 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:17 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:23 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:23 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:23 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:30 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:30 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:30 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:43 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:43 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:29:43 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:33 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:33 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:33 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:33 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:33 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:33 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:37 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:37 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:37 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:32:46 WARN  :  [Hsm 55-1559] Software Design already exists with Name D:\Xilinx\MandelZybo_cleaner\hw\zybo_bsd\zybo_bsd.sdk\MandelRISC_cleaner_bsp\system.mss
+17:33:19 ERROR : SDK has detected that project system_wrapper_hw_platform_1 has been deleted (or renamed).
+This project was referenced by a BSP project, which will now fail to compile properly.
+
+We recommend that you create a new BSP project pointing to a valid hardware project.
+17:33:43 INFO  : Project MandelRISC_cleaner_bsp was a BSP project. Please update references.
+17:33:43 ERROR : SDK has detected that project MandelRISC_cleaner_bsp has been deleted (or renamed).
+If this project was a BSP referenced by other C/C++ applications, then those applications will fail to build now. Please right click on those applications and click 'Change Referenced BSP' to update those projects' BSP references.
+17:35:36 INFO  : Project 'MR_bsp' created. You can now create BSPs and application projects targeting this hardware platform.
+17:37:07 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:41:08 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+17:45:50 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+17:50:19 INFO  : The new hardware specification file contains the same information as the current specification file. No changes were done to the workspace.
+17:52:27 INFO  : Project 'system_wrapper_hw_platform_1' created. You can now create BSPs and application projects targeting this hardware platform.
+17:53:40 INFO  : ps7_init is completed.
+17:53:40 INFO  : ps7_post_config is completed.
+17:53:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+19:34:24 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1409106846559,  Project:1409096371224
+19:34:24 INFO  : Project MR_bsp's source hardware specification located at D:\Xilinx\MandelZybo_cleaner_mp8\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:34:24 INFO  : Copied contents of D:\Xilinx\MandelZybo_cleaner_mp8\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper.hdf into \MR_bsp\system.hdf.
+19:34:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:34:26 INFO  : Clearing existing target manager status.
+19:34:26 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:34:26 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1409106846559,  Project:1409096371224
+19:34:27 INFO  : Project system_wrapper_hw_platform_0's source hardware specification located at D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:34:27 INFO  : Copied contents of D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf into \system_wrapper_hw_platform_0\system.hdf.
+19:34:28 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:34:28 INFO  : Clearing existing target manager status.
+19:34:28 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+19:34:28 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1409106846559,  Project:1409096371224
+19:34:29 INFO  : Project system_wrapper_hw_platform_1's source hardware specification located at D:\Xilinx\MandelZybo_cleaner_mp8\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:34:29 INFO  : Copied contents of D:\Xilinx\MandelZybo_cleaner_mp8\hw\zybo_bsd\zybo_bsd.sdk\system_wrapper.hdf into \system_wrapper_hw_platform_1\system.hdf.
+19:34:30 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:35:01 INFO  : 
+19:35:02 INFO  : Updating hardware inferred compiler options for MandelRISC_cleaner.
+19:35:02 INFO  : Clearing existing target manager status.
+19:35:02 INFO  : Closing and re-opening the MSS file of ther project standalone_bsp_0
+19:35:02 INFO  : Workspace synchronized with the new hardware specification file. Cleaning dependent projects...
+22:06:33 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+14:43:15 INFO  : Processing command line option -hwspec D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/system_wrapper.hdf.
+14:43:15 INFO  : Checking for hwspec changes in the project system_wrapper_hw_platform_0.
+14:43:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:54:49 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:07:25 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:08:41 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:21:19 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:24:08 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:30:06 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:35:59 INFO  : Processor reset is completed for ps7_cortexa9_0
+15:37:10 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:12:10 INFO  : ps7_cortexa9_0 Processor is in use. Please stop existing Run or Debug sessions before launching.
+16:12:26 INFO  : Processor reset is completed for ps7_cortexa9_0
+16:55:29 INFO  : Processor reset is completed for ps7_cortexa9_0
+17:10:39 INFO  : Processor reset is completed for ps7_cortexa9_0
+14:39:12 ERROR : Unexpected error while parsing XMD response ?: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 

@@ -1,0 +1,836 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Mon Aug 18 13:44:22 2014
+| Host         : Viper running 64-bit Service Pack 1  (build 7601)
+| Command      : report_environment -file d:xinfo.txt
+-----------------------------------------------------------------------------------
+
+Environment Report
+
+Table of Contents
+-----------------
+1. System Information
+2. Environment Variables
+3. Vivado Preferences
+3.1 C:\Users\Jim\AppData\Roaming/Xilinx/Vivado/init.tcl
+3.2 C:\Users\Jim\AppData\Roaming/Xilinx/Vivado/init.tcl
+3.3 C:\Users\Jim\AppData\Roaming/Xilinx/Vivado/2014.2/vivado.ini
+4. Install Information
+5. Version of system dlls called by Xilinx software
+6. License Information
+
+1. System Information
+---------------------
+
+Host Information
++---------------------------+------------------------------------------+
+| Hostname                  | Viper                                    |
+| Network Interface Card ID | 10c37b6e8ed0                             |
+| C: Drive Serial Number    | DISK_SERIAL_NUM=aae2ecbc                 |
+| FLEXID Dongle ID          |                                          |
+| Platform                  | Microsoft Windows 7 , 64-bit             |
+| Operating System          | Service Pack 1  (build 7601)             |
+| Processor Vendor          | Intel                                    |
+| Processor Detail          | Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz |
+| Processor Speed           | 4000 MHz                                 |
+| Processor Count           | 1                                        |
+| Physical Core Count       | 4                                        |
+| Logical Core Count        | 8                                        |
++---------------------------+------------------------------------------+
+
+
+Available Disk Space
++--------+------------+--------+--------+
+| Volume | Drive Type |   Free |  Total |
++--------+------------+--------+--------+
+| C:\    | HD - NTFS  | 127 GB | 238 GB |
+| D:\    | HD - NTFS  | 106 GB | 465 GB |
++--------+------------+--------+--------+
+
+
+Host Memory Information
++---------------------------+-------+
+| Memory Type               | Value |
++---------------------------+-------+
+| Physical Memory           | 31 GB |
+| Available Physical Memory | 24 GB |
+| Swap File                 | 63 GB |
+| Total Virtual             |  7 TB |
+| Available Virtual         |  7 TB |
++---------------------------+-------+
+
+
+2. Environment Variables
+------------------------
+
+ALLUSERSPROFILE=C:\ProgramData
+APPDATA=C:\Users\Jim\AppData\Roaming
+CHARPOP=1
+CommonProgramFiles=C:\Program Files\Common Files
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+CommonProgramW6432=C:\Program Files\Common Files
+COMPUTERNAME=VIPER
+ComSpec=C:\Windows\system32\cmd.exe
+FP_NO_HOST_CHECK=NO
+HDI_APPROOT=C:/Xilinx/Vivado/2014.2
+HOMEDRIVE=C:
+HOMEPATH=\Users\Jim
+ISL_IOSTREAMS_RSA=C:/Xilinx/Vivado/2014.2/tps/isl
+LOCALAPPDATA=C:\Users\Jim\AppData\Local
+LOGONSERVER=\\VIPER
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
+Path=C:/Xilinx/Vivado/2014.2/bin;C:/Xilinx/Vivado/2014.2/lib/win64.o;C:/Xilinx/Vivado/2014.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2014.2/tps/win64/jre/bin;C:/Xilinx/SDK/2014.2/bin;C:/Xilinx/Vivado/2014.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2014.2/ids_lite/ISE/lib/nt64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE=AMD64
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 60 Stepping 3, GenuineIntel
+PROCESSOR_LEVEL=6
+PROCESSOR_REVISION=3c03
+ProgramData=C:\ProgramData
+ProgramFiles=C:\Program Files
+ProgramFiles(x86)=C:\Program Files (x86)
+ProgramW6432=C:\Program Files
+PROMPT=$P$G
+PSModulePath=C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC=C:\Users\Public
+RDI_APPROOT=C:/Xilinx/Vivado/2014.2
+RDI_ARGS= -gui_launcher_event rodinguilauncherevent5836
+RDI_ARGS_FUNCTION=RDI_EXEC_DEFAULT
+RDI_BASEROOT=C:/Xilinx/Vivado
+RDI_BINDIR=C:/Xilinx/Vivado/2014.2/bin
+RDI_BINROOT=C:/Xilinx/Vivado/2014.2/bin
+RDI_BUILD=yes
+RDI_CHECK_PROG=True
+RDI_DATADIR=C:/Xilinx/Vivado/2014.2/data
+RDI_INSTALLROOT=C:/Xilinx
+RDI_INSTALLVERSION=2014.2
+RDI_ISE_PLATFORM=nt64
+RDI_JAVAROOT=C:/Xilinx/Vivado/2014.2/tps/win64/jre
+RDI_LIBDIR=C:/Xilinx/Vivado/2014.2/lib/win64.o
+RDI_OPT_EXT=.o
+RDI_OS_ARCH=64
+RDI_PATASK=yes
+RDI_PLATFORM=win64
+RDI_PREPEND_PATH=C:/Xilinx/SDK/2014.2/bin;C:/Xilinx/Vivado/2014.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2014.2/ids_lite/ISE/lib/nt64
+RDI_PROG=C:/Xilinx/Vivado/2014.2/bin/unwrapped/win64.o/vivado.exe
+RDI_PROGNAME=vivado.exe
+RDI_VERBOSE=False
+RT_LIBPATH=C:/Xilinx/Vivado/2014.2/scripts/rt/data
+RT_TCL_PATH=C:/Xilinx/Vivado/2014.2/scripts/rt/base_tcl/tcl
+SESSIONNAME=Console
+SYNTH_COMMON=C:/Xilinx/Vivado/2014.2/scripts/rt/data
+SystemDrive=C:
+SystemRoot=C:\Windows
+TCL_LIBRARY=C:/Xilinx/Vivado/2014.2/tps/tcl/tcl8.5
+TEMP=C:\Users\Jim\AppData\Local\Temp
+TMP=C:\Users\Jim\AppData\Local\Temp
+USERDOMAIN=Viper
+USERNAME=Jim
+USERPROFILE=C:\Users\Jim
+valid=True
+windir=C:\Windows
+windows_tracing_flags=3
+windows_tracing_logfile=C:\BVTBin\Tests\installpackage\csilogfile.log
+XILINX=C:/Xilinx/Vivado/2014.2/ids_lite/ISE
+XILINX_DSP=C:/Xilinx/Vivado/2014.2/ids_lite/ISE
+XILINX_PLANAHEAD=C:/Xilinx/Vivado/2014.2
+XILINX_SDK=C:/Xilinx/SDK/2014.2
+XILINX_VIVADO=C:/Xilinx/Vivado/2014.2
+XVREDIST=C:/Xilinx/Vivado/2014.2\tps\win64\xvcredist.exe
+_dir=C:/Xilinx/Vivado/2014.2/ids_lite/ISE
+_plat=nt64
+_valid=False
+HOME=C:\Users\Jim
+HRT_TCL_PATH=C:/Xilinx/Vivado/2014.2/scripts/rt/fpga_tcl
+RT_INTERUPT=C:/Users/Jim/.oasys/realTime-interrupt.tcl
+
+3. Vivado Preferences
+---------------------
+
+3.1 C:\Users\Jim\AppData\Roaming/Xilinx/Vivado/init.tcl
+-------------------------------------------------------
+
+set_param general.maxThreads 8
+
+
+3.2 C:\Users\Jim\AppData\Roaming/Xilinx/Vivado/init.tcl
+-------------------------------------------------------
+
+set_param general.maxThreads 8
+
+
+3.3 C:\Users\Jim\AppData\Roaming/Xilinx/Vivado/2014.2/vivado.ini
+----------------------------------------------------------------
+
+VERSION=5
+ASSIGNED_INSTANCE=true true 8f8301 false ffffff
+BEL=true true 666666 false 0
+BEL_PIN=true true 666666 false 0
+BUNDLE_NET=true false ffffff false ffffff
+CLOCK_CAPABLE_PIN=true true ff0000 true 99ccff
+CLOCK_REGION=true true 3366ff false ffafaf
+CONFIG_PIN=true true 0 true ff6600
+CONFLICT_NET=true true 990066 false 990066
+DCM=true true ffafaf false ffffff
+FIXED_INSTANCE=true true ff700a true ff700a
+FIXED_PORT=true true ff6600 true ff6600
+FULLY_ROUTED_NET=true true a000 false ffffff
+GIGABIT_TRANSCEIVER=true true 33ff33 false ffffff
+GLOBAL_CLOCK_PIN=true true ff0000 true 999999
+GND_PIN=true true c0c0c0 true 287802
+GT_CLOCK=true true 9999ff false ffffff
+GT_PIN=true true 0 true a88f62
+INPUT_PIN=true true ff true 808080
+IO_BANK_0=true true cc00cc true cc00cc
+IO_BANK_1=true true cc33 true cc33
+IO_BANK_10=true true ffcc99 true ffcc99
+IO_BANK_2=true true cccc true cccc
+IO_BANK_3=true true ff9999 true ff9999
+IO_BANK_4=true true ffcc00 true ffcc00
+IO_BANK_5=true true ff6666 true ff6666
+IO_BANK_6=true true 6666ff true 6666ff
+IO_BANK_7=true true 99ff99 true 99ff99
+IO_BANK_8=true true 33cc00 true 33cc00
+IO_BANK_9=true true ffff00 true ffff00
+IO_NET=false true 9900 false ffffff
+IO_PIN=true true ff true 808080
+JTAG_PIN=true true 0 true ff6600
+PARTIALLY_ROUTED_NET=true true ffff00 false ffff00
+PARTITION_PIN=true true cee3f6 true cee3f6
+PATH=true true ffc800 true ffc800
+PHYSICAL_INSTANCE=true true cde16d true cde16d
+PHY_BLOCK_1=true true cc66ff false 0
+PHY_BLOCK_2=true true 9933ff true aa97bd
+PHY_BLOCK_3=true true 6600cc true e1c4ff
+PLACED_INSTANCE=true true 37cacc true 37cacc
+PLACED_PORT=true true ffff true ffff
+POWER_MANAGEMENT_PIN=true true 0 true ff6600
+PPC=true true ff00ff false ffffff
+RAM_MULT=true true ff0000 false ffffff
+SITE=true true 333333 false 0
+SPECIAL_PIN=true true 0 true 666666
+SYSMON_PIN=true true 0 true ff6600
+TEMP_SENSOR_PIN=true true 0 true ff6600
+TILE=true true 1cc false 0
+UNROUTED_NET=true true d00000 false d00000
+USED_STUB=false true ff00ff false ff00ff
+V4_BRAM=true true ff00ff false ffffff
+V4_CCM=true true ffc800 false ffffff
+V4_DSP=true true ffff false ffffff
+V4_REG_CLOCK=true true ff0000 false ffffff
+V4_SYSMON=true true ffff00 false ffffff
+VCC_PIN=true true c0c0c0 true b5161e
+BUNDLE_NET#0=1 1 false 1 800000
+BUNDLE_NET#1=2 20 true 2 946300
+BUNDLE_NET#2=21 60 true 4 ff952b
+BUNDLE_NET#3=61 200 true 6 ff0000
+BUNDLE_NET#4=201 500 true 8 6666ff
+BUNDLE_NET#5=501 1000 true 10 33ffcc
+BUNDLE_NET#6=1001 2147483647 true 12 999999
+CLOCK_INTERACTION_ANNOTATION=98afc7
+CLOCK_INTERACTION_AXIS=98afc7
+CLOCK_INTERACTION_GRID=5c5c5c
+CLOCK_INTERACTION_NO_PATH=0
+CLOCK_INTERACTION_PAIR_DATAPATH_ONLY=99ccff
+CLOCK_INTERACTION_PARTIAL_FALSE_PATH=ffff
+CLOCK_INTERACTION_PARTIAL_FALSE_PATH_UNSAFE=ff6103
+CLOCK_INTERACTION_SELECTION=ff
+CLOCK_INTERACTION_TICK=98afc7
+CLOCK_INTERACTION_TIMED=ea600
+CLOCK_INTERACTION_TIMED_UNSAFE=f60000
+CLOCK_INTERACTION_USER_IGNORED_PATHS=149bff
+CODE_EDITOR_BACKGROUND=ffffff
+CODE_EDITOR_FIND_HIGHLIGHT_BACKGROUND=ff00
+CODE_EDITOR_FOREGROUND=0
+CODE_EDITOR_LINE_HIGHLIGHT=ffffd7
+CODE_EDITOR_SELECTION_BACKGROUND=a0b3f0
+CONSOLE_BACKGROUND=ffffff
+CONSOLE_COMMAND_TEXT=ff
+CONSOLE_ERROR_TEXT=990000
+CONSOLE_FIND_HIGHLIGHT_BACKGROUND=ff00
+CONSOLE_FOREGROUND=0
+CONSOLE_SELECTION_BACKGROUND=a0b3f0
+CONSOLE_WARNING_TEXT=cc6600
+DEVICE_BACKGROUND=0
+DEVICE_FOREGROUND=ffffff
+DEVICE_MARKERS=ffff00
+DEVICE_SELECTION=ffffff
+GE_BACKGROUND=0
+GE_FOREGROUND=ffffff
+GE_MARKERS=ffff00
+GE_SELECTION=ffffff
+HIERARCHY_BACKGROUND=0
+HIERARCHY_FOREGROUND=ffffff
+HIERARCHY_MARKERS=ffff00
+HIERARCHY_SELECTION=ffffff
+HIGHLIGHT_1=ff00ff
+HIGHLIGHT_10=ccccff
+HIGHLIGHT_11=ead00
+HIGHLIGHT_12=cefc00
+HIGHLIGHT_13=9e2dbe
+HIGHLIGHT_14=ba6a29
+HIGHLIGHT_15=fc0188
+HIGHLIGHT_16=2f990
+HIGHLIGHT_17=f1b0fb
+HIGHLIGHT_18=fec004
+HIGHLIGHT_19=149bff
+HIGHLIGHT_2=ffff00
+HIGHLIGHT_20=eb591b
+HIGHLIGHT_3=ff00
+HIGHLIGHT_4=ff6666
+HIGHLIGHT_5=ff
+HIGHLIGHT_6=ffc000
+HIGHLIGHT_7=ff0000
+HIGHLIGHT_8=ffff
+HIGHLIGHT_9=ff00ff
+HISTOGRAM_ANNOTATION_FAIL=880000
+HISTOGRAM_ANNOTATION_PASS=888800
+HISTOGRAM_AXIS=98afc7
+HISTOGRAM_BACKGROUND=0
+HISTOGRAM_FAIL=ff0000
+HISTOGRAM_GRID=5c5c5c
+HISTOGRAM_PASS=ff00
+HISTOGRAM_SELECTION=ff
+HISTOGRAM_TICK=98afc7
+INSTTREE_INST_FILL=33cccc
+INSTTREE_INST_TEXT=80
+INSTTREE_LINE_COLOR=bc0000
+PACKAGE_BACKGROUND=0
+PACKAGE_FOREGROUND=ffffff
+PACKAGE_MARKERS=ffff00
+PACKAGE_SELECTION=ffffff
+RSB_AXI3_CONNECTION=3f6e9e
+RSB_AXI4LITE_CONNECTION=3f6e9e
+RSB_AXI4MM_CONNECTION=3f6e9e
+RSB_AXI4STREAM_CONNECTION=3f6e9e
+RSB_BACKGROUND=ffffff
+RSB_BUS=469cb9
+RSB_COMMENT_BORDER=0
+RSB_COMMENT_TEXT=0
+RSB_EXPANDED_HIERARCHY_FILL=fafdfe
+RSB_HIERARCHY_FILL=a4bdd7
+RSB_INSTANCE_BORDER=3f6e9e
+RSB_INSTANCE_FILL=b8d1eb
+RSB_INSTANCE_TEXT=0
+RSB_INTERFACE_CONNECTION=3f6e9e
+RSB_INTERFACE_PORT=2a5e6f
+RSB_INTERFACE_PORT_FILL=ddd4d0
+RSB_MARKERS=ffff00
+RSB_MOVE_INSTANCE_COLOR=c89900
+RSB_NET=102235
+RSB_PIN_TEXT=0
+RSB_PORT=102235
+RSB_PORT_FILL=ddd4d0
+RSB_PORT_TEXT=0
+RSB_SELECTION=ba8b25
+SCH_ATTRIBUTE=0
+SCH_BACKGROUND=ffffff
+SCH_BUS=8000
+SCH_BUS_RIPPER=0
+SCH_CELL_TEXT=0
+SCH_EXPAND_HIER_COLOR=fafafa
+SCH_FILL_0=ffffcc
+SCH_FILL_1=dfebf8
+SCH_FILL_2=f0f0f0
+SCH_FOREGROUND=0
+SCH_INSTANCE_TEXT=0
+SCH_INST_0=0
+SCH_INST_1=0
+SCH_INST_2=0
+SCH_MARKERS=ffff00
+SCH_NET=19b400
+SCH_PIN_TEXT=0
+SCH_PORT=0
+SCH_PORT_TEXT=0
+SCH_SELECTION=ff
+WAVEFORM_BACKGROUND=0
+WINDOW_BACKGROUND=ffffff
+WINDOW_FOREGROUND=0
+WORLDVIEW_VIEWABLE_AREA=ffc800
+METRIC_ESTIMATED_SLICE_UTILIZATION_PER_PBLOCK=0f 70f false ffffff 70f 85f true ffff99 85f 100f true ff9900 100f Infinity true fc3f3f
+METRIC_FF_UTILIZATION_PER_CLB=0f 70f false ffffff 70f 85f true ffff99 85f 100f true ff9900 100f Infinity true fc3f3f
+METRIC_FF_UTILIZATION_PER_CLOCK_REGION=0f 33.333f false ffffff 33.333f 66.667f true ffff99 66.667f 100f true ff9900 100f Infinity true fc3f3f
+METRIC_FF_UTILIZATION_PER_PBLOCK=0f 70f false ffffff 70f 85f true ffff99 85f 100f true ff9900 100f Infinity true fc3f3f
+METRIC_HORIZONTAL_ROUTING_CONGESTION_PER_CLB=0f 66.667f true ffffff 66.667f 133.333f true febfbf 133.333f 200f true fd7f7f 200f Infinity true fc3f3f
+METRIC_LUT_UTILIZATION_PER_CLB=0f 70f false ffffff 70f 85f true ffff99 85f 100f true ff9900 100f Infinity true ff0000
+METRIC_LUT_UTILIZATION_PER_CLOCK_REGION=0f 33.333f false ffffff 33.333f 66.667f true ffff99 66.667f 100f true ff9900 100f Infinity true fc3f3f
+METRIC_LUT_UTILIZATION_PER_PBLOCK=0f 70f false ffffff 70f 85f true ffff99 85f 100f true ff9900 100f Infinity true fc3f3f
+METRIC_MIN_SLACK_PER_PBLOCK=-Infinity -2.5f true ff0000 -2.5f 0f true ff0000 0f 1f true ff9900 1f 2.5f true ffff99 2.5f Infinity false ffffff
+METRIC_MIN_SLACK_PER_PLACED_BEL=-Infinity -2.5f true ff0000 -2.5f 0f true ff0000 0f 1f true ff9900 1f 2.5f true ffff99 2.5f Infinity false ffffff
+METRIC_PBLOCK_BOUNDARY-CROSSING_NET_COUNT=0f 50f false ffffff 50f 100f true ffff99 100f 150f true ff9900 150f Infinity true fc3f3f
+METRIC_TOTAL_NEGATIVE_SLACK_PER_PBLOCK=-Infinity -900f true ff0000 -900f -600f true ff0000 -600f -300f true ffcc00 -300f 0f true ffff99
+METRIC_VERTICAL_ROUTING_CONGESTION_PER_CLB=0f 66.667f true ffffff 66.667f 133.333f true febfbf 133.333f 200f true fd7f7f 200f Infinity true fc3f3f
+AUTOHIDE_TCL_CONSOLE=true
+CODE_EDITOR_FONT=Monospaced:12
+CODE_EDITOR_STYLE={{0:-16777216:null:0:null:null}{2:-8355712:null:0:null:null}{2:-8355712:null:0:null:null}{1:-16777088:null:0:null:null}{0:-65281:null:0:null:null}{0:-16738816:null:0:null:null}{0:-10157927:null:0:null:null}{1:-10157927:null:0:null:null}{1:-6750157:null:0:null:null}{1:-16777216:null:0:null:null}{1:-65536:null:0:null:null}{0:null:null:2:-65536:-65536}{0:-16777216:-595012:0:null:-256}{0:-16777216:-986896:0:null:null}}
+CONFIRM_EXIT_VIVADO=false
+ENFORCE_LEGAL_IO_PLACEMENT=true
+FILE_CHOOSER_DEFAULT_VIEW=list
+IPINST_HIDE_DISABLED_PINS=true
+NUM_RECENT_HARDWARE_TARGETS=0
+PA_LAUNCH_COUNTER=3 0 2 0
+PROJECTS_ROOT=D:%5cXilinx%5cMandelZybo%5chw
+RECENT_DIRECTORIES=D:/Xilinx/MandelZybo/hw/zybo_bsd C:/Users/Jim
+RECENT_PROJECTS=D:/Xilinx/MandelZybo/hw/zybo_bsd/zybo_bsd.xpr
+SHOW_DESCRIPTION_AREA=false
+SHOW_FILE_GROUP=false
+SHOW_NAVIGATOR=198
+SHOW_SAME_MSG_GROUP=false
+WRAP_CRITICAL_WARNINGS=true
+WRAP_MSG_VIEW=true
+
+
+
+4. Install Information
+----------------------
+
+No install information found.
+
+5. Version of system dlls called by Xilinx software
+---------------------------------------------------
+
+File Name:	ADVAPI32.dll
+Dll Version:	6.01.7601.18247
+File Size:	878080
+Create Time:	Sat Aug 16 18:09:19 2014
+Access Time:	Sat Aug 16 18:09:19 2014
+Modified Time:	Sat Aug 16 18:09:19 2014
+File Path:	C:\Windows\system32\ADVAPI32.dll
+
+File Name:	COMCTL32.dll
+Dll Version:	5.82.7601.18201
+File Size:	633856
+Create Time:	Sat Aug 16 17:51:13 2014
+Access Time:	Sat Aug 16 17:51:13 2014
+Modified Time:	Thu Jul 04 05:50:39 2013
+File Path:	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18201_none_a4d3b9377117c3df\COMCTL32.dll
+
+File Name:	comdlg32.dll
+Dll Version:	6.01.7601.17514
+File Size:	594432
+Create Time:	Sat Nov 20 20:24:22 2010
+Access Time:	Sat Nov 20 20:24:22 2010
+Modified Time:	Sat Nov 20 20:24:22 2010
+File Path:	C:\Windows\system32\COMDLG32.dll
+
+File Name:	CRYPT32.dll
+Dll Version:	6.01.7601.18277
+File Size:	1474048
+Create Time:	Sat Aug 16 17:51:18 2014
+Access Time:	Sat Aug 16 17:51:18 2014
+Modified Time:	Sat Oct 05 13:25:35 2013
+File Path:	C:\Windows\system32\CRYPT32.dll
+
+File Name:	dbghelp.dll
+Dll Version:	6.01.7601.17514
+File Size:	1087488
+Create Time:	Sat Nov 20 20:24:00 2010
+Access Time:	Sat Nov 20 20:24:00 2010
+Modified Time:	Sat Nov 20 20:24:00 2010
+File Path:	C:\Windows\system32\dbghelp.dll
+
+File Name:	DCIMAN32.dll
+Dll Version:	6.01.7601.18177
+File Size:	14336
+Create Time:	Sat Aug 16 17:51:01 2014
+Access Time:	Sat Aug 16 17:51:01 2014
+Modified Time:	Wed Jun 05 22:49:07 2013
+File Path:	C:\Windows\system32\DCIMAN32.dll
+
+File Name:	DDRAW.dll
+Dll Version:	6.01.7600.16385
+File Size:	569344
+Create Time:	Mon Jul 13 16:41:47 2009
+Access Time:	Mon Jul 13 16:41:47 2009
+Modified Time:	Mon Jul 13 18:40:28 2009
+File Path:	C:\Windows\system32\DDRAW.dll
+
+File Name:	GDI32.dll
+Dll Version:	6.01.7601.18275
+File Size:	404480
+Create Time:	Sat Aug 16 17:50:56 2014
+Access Time:	Sat Aug 16 17:50:56 2014
+Modified Time:	Wed Oct 02 19:23:48 2013
+File Path:	C:\Windows\system32\GDI32.dll
+
+File Name:	GLU32.dll
+Dll Version:	6.01.7600.16385
+File Size:	165376
+Create Time:	Mon Jul 13 16:42:05 2009
+Access Time:	Mon Jul 13 16:42:05 2009
+Modified Time:	Mon Jul 13 18:40:56 2009
+File Path:	C:\Windows\system32\GLU32.dll
+
+File Name:	IMM32.DLL
+Dll Version:	6.01.7600.16385
+File Size:	167424
+Create Time:	Mon Jul 13 16:38:08 2009
+Access Time:	Mon Jul 13 16:38:08 2009
+Modified Time:	Mon Jul 13 18:41:09 2009
+File Path:	C:\Windows\system32\IMM32.DLL
+
+File Name:	KERNEL32.dll
+Dll Version:	6.01.7601.18409
+File Size:	1163264
+Create Time:	Sat Aug 16 17:50:59 2014
+Access Time:	Sat Aug 16 17:50:59 2014
+Modified Time:	Tue Mar 04 02:44:00 2014
+File Path:	C:\Windows\system32\kernel32.dll
+
+File Name:	LZ32.dll
+Dll Version:	6.01.7600.16385
+File Size:	3072
+Create Time:	Mon Jul 13 16:21:34 2009
+Access Time:	Mon Jul 13 16:21:34 2009
+Modified Time:	Mon Jul 13 18:28:45 2009
+File Path:	C:\Windows\system32\LZ32.dll
+
+File Name:	MFC42.DLL
+Dll Version:	6.06.8064.00
+File Size:	1395712
+Create Time:	Sat Aug 16 17:51:00 2014
+Access Time:	Sat Aug 16 17:51:00 2014
+Modified Time:	Thu Mar 10 23:34:50 2011
+File Path:	C:\Windows\system32\MFC42.DLL
+
+File Name:	MPR.dll
+Dll Version:	6.01.7600.16385
+File Size:	80896
+Create Time:	Mon Jul 13 17:10:59 2009
+Access Time:	Mon Jul 13 17:10:59 2009
+Modified Time:	Mon Jul 13 18:41:26 2009
+File Path:	C:\Windows\system32\MPR.dll
+
+File Name:	MSASN1.dll
+Dll Version:	6.01.7601.17514
+File Size:	46592
+Create Time:	Sat Nov 20 20:24:22 2010
+Access Time:	Sat Nov 20 20:24:22 2010
+Modified Time:	Sat Nov 20 20:24:22 2010
+File Path:	C:\Windows\system32\MSASN1.dll
+
+File Name:	MSVCIRT.dll
+Dll Version:	7.00.7600.16385
+File Size:	78336
+Create Time:	Mon Jul 13 16:18:58 2009
+Access Time:	Mon Jul 13 16:18:58 2009
+Modified Time:	Mon Jul 13 18:41:32 2009
+File Path:	C:\Windows\system32\MSVCIRT.dll
+
+File Name:	MSVCP80.DLL
+Dll Version:	Specified dll was not found.
+File Size:	Specified dll was not found.
+Create Time:	Specified dll was not found.
+Access Time:	Specified dll was not found.
+Modified Time:	Specified dll was not found.
+File Path:	Specified dll was not found.
+
+File Name:	MSVCR71.dll
+Dll Version:	Specified dll was not found.
+File Size:	Specified dll was not found.
+Create Time:	Specified dll was not found.
+Access Time:	Specified dll was not found.
+Modified Time:	Specified dll was not found.
+File Path:	Specified dll was not found.
+
+File Name:	MSVCR80.DLL
+Dll Version:	Specified dll was not found.
+File Size:	Specified dll was not found.
+Create Time:	Specified dll was not found.
+Access Time:	Specified dll was not found.
+Modified Time:	Specified dll was not found.
+File Path:	Specified dll was not found.
+
+File Name:	MSVCRT.dll
+Dll Version:	7.00.7601.17744
+File Size:	634880
+Create Time:	Sat Aug 16 17:50:56 2014
+Access Time:	Sat Aug 16 17:50:56 2014
+Modified Time:	Fri Dec 16 01:46:06 2011
+File Path:	C:\Windows\system32\msvcrt.dll
+
+File Name:	NETAPI32.dll
+Dll Version:	6.01.7601.17887
+File Size:	73216
+Create Time:	Sat Aug 16 17:50:56 2014
+Access Time:	Sat Aug 16 17:50:56 2014
+Modified Time:	Wed Jul 04 15:16:43 2012
+File Path:	C:\Windows\system32\NETAPI32.dll
+
+File Name:	NETRAP.dll
+Dll Version:	Specified dll was not found.
+File Size:	Specified dll was not found.
+Create Time:	Specified dll was not found.
+Access Time:	Specified dll was not found.
+Modified Time:	Specified dll was not found.
+File Path:	Specified dll was not found.
+
+File Name:	ntdll.dll
+Dll Version:	6.01.7601.18247
+File Size:	1732032
+Create Time:	Sat Aug 16 18:09:19 2014
+Access Time:	Sat Aug 16 18:09:19 2014
+Modified Time:	Sat Aug 16 18:09:19 2014
+File Path:	C:\Windows\SYSTEM32\ntdll.dll
+
+File Name:	ole32.dll
+Dll Version:	6.01.7601.17514
+File Size:	2086912
+Create Time:	Sat Nov 20 20:23:48 2010
+Access Time:	Sat Nov 20 20:23:48 2010
+Modified Time:	Sat Nov 20 20:23:48 2010
+File Path:	C:\Windows\system32\ole32.dll
+
+File Name:	OLEAUT32.dll
+Dll Version:	6.01.7601.17676
+File Size:	861696
+Create Time:	Sat Aug 16 17:50:56 2014
+Access Time:	Sat Aug 16 17:50:56 2014
+Modified Time:	Fri Aug 26 22:37:49 2011
+File Path:	C:\Windows\system32\OLEAUT32.dll
+
+File Name:	oledlg.dll
+Dll Version:	6.01.7600.16385
+File Size:	128000
+Create Time:	Mon Jul 13 16:59:22 2009
+Access Time:	Mon Jul 13 16:59:22 2009
+Modified Time:	Mon Jul 13 18:41:53 2009
+File Path:	C:\Windows\system32\oledlg.dll
+
+File Name:	OPENGL32.dll
+Dll Version:	6.01.7600.16385
+File Size:	1039872
+Create Time:	Mon Jul 13 16:42:17 2009
+Access Time:	Mon Jul 13 16:42:17 2009
+Modified Time:	Mon Jul 13 18:41:53 2009
+File Path:	C:\Windows\system32\OPENGL32.dll
+
+File Name:	RPCRT4.dll
+Dll Version:	6.01.7601.18532
+File Size:	1216000
+Create Time:	Sat Aug 16 17:50:05 2014
+Access Time:	Sat Aug 16 17:50:05 2014
+Modified Time:	Sun Jul 13 19:02:45 2014
+File Path:	C:\Windows\system32\RPCRT4.dll
+
+File Name:	SAMLIB.dll
+Dll Version:	6.01.7600.16385
+File Size:	107008
+Create Time:	Mon Jul 13 16:53:43 2009
+Access Time:	Mon Jul 13 16:53:43 2009
+Modified Time:	Mon Jul 13 18:41:53 2009
+File Path:	C:\Windows\system32\SAMLIB.dll
+
+File Name:	SECUR32.DLL
+Dll Version:	6.01.7601.18443
+File Size:	28160
+Create Time:	Sat Aug 16 17:51:07 2014
+Access Time:	Sat Aug 16 17:51:07 2014
+Modified Time:	Fri Apr 11 19:19:37 2014
+File Path:	C:\Windows\system32\Secur32.dll
+
+File Name:	SETUPAPI.dll
+Dll Version:	6.01.7601.17514
+File Size:	1900544
+Create Time:	Sat Nov 20 20:24:28 2010
+Access Time:	Sat Nov 20 20:24:28 2010
+Modified Time:	Sat Nov 20 20:24:28 2010
+File Path:	C:\Windows\system32\SETUPAPI.dll
+
+File Name:	SHELL32.dll
+Dll Version:	6.01.7601.18517
+File Size:	14175744
+Create Time:	Sat Aug 16 18:24:00 2014
+Access Time:	Sat Aug 16 18:24:00 2014
+Modified Time:	Tue Jun 24 19:05:42 2014
+File Path:	C:\Windows\system32\SHELL32.dll
+
+File Name:	SHLWAPI.DLL
+Dll Version:	6.01.7601.17514
+File Size:	448512
+Create Time:	Sat Nov 20 20:24:22 2010
+Access Time:	Sat Nov 20 20:24:22 2010
+Modified Time:	Sat Nov 20 20:24:22 2010
+File Path:	C:\Windows\system32\SHLWAPI.dll
+
+File Name:	SNMPAPI.DLL
+Dll Version:	6.01.7600.16385
+File Size:	27648
+Create Time:	Mon Jul 13 17:10:31 2009
+Access Time:	Mon Jul 13 17:10:31 2009
+Modified Time:	Mon Jul 13 18:41:54 2009
+File Path:	C:\Windows\system32\snmpapi.dll
+
+File Name:	urlmon.dll
+Dll Version:	11.00.9600.17239
+File Size:	1431040
+Create Time:	Sat Aug 16 18:46:28 2014
+Access Time:	Sat Aug 16 18:46:28 2014
+Modified Time:	Fri Jul 25 03:26:58 2014
+File Path:	C:\Windows\system32\urlmon.dll
+
+File Name:	USER32.dll
+Dll Version:	6.01.7601.17514
+File Size:	1008128
+Create Time:	Sat Nov 20 20:24:09 2010
+Access Time:	Sat Nov 20 20:24:09 2010
+Modified Time:	Sat Nov 20 20:24:09 2010
+File Path:	C:\Windows\system32\USER32.dll
+
+File Name:	VERSION.dll
+Dll Version:	6.01.7600.16385
+File Size:	29184
+Create Time:	Mon Jul 13 16:57:24 2009
+Access Time:	Mon Jul 13 16:57:24 2009
+Modified Time:	Mon Jul 13 18:41:56 2009
+File Path:	C:\Windows\system32\VERSION.dll
+
+File Name:	WINHTTP.dll
+Dll Version:	6.01.7601.17514
+File Size:	444416
+Create Time:	Sat Nov 20 20:23:56 2010
+Access Time:	Sat Nov 20 20:23:56 2010
+Modified Time:	Sat Nov 20 20:23:56 2010
+File Path:	C:\Windows\system32\WINHTTP.dll
+
+File Name:	WININET.dll
+Dll Version:	11.00.9600.17239
+File Size:	2266624
+Create Time:	Sat Aug 16 18:46:26 2014
+Access Time:	Sat Aug 16 18:46:26 2014
+Modified Time:	Fri Jul 25 03:52:06 2014
+File Path:	C:\Windows\system32\WININET.dll
+
+File Name:	WINMM.DLL
+Dll Version:	6.01.7600.16385
+File Size:	217600
+Create Time:	Mon Jul 13 17:18:51 2009
+Access Time:	Mon Jul 13 17:18:51 2009
+Modified Time:	Mon Jul 13 18:41:56 2009
+File Path:	C:\Windows\system32\WINMM.dll
+
+File Name:	WINSPOOL.DRV
+Dll Version:	6.01.7601.17514
+File Size:	442368
+Create Time:	Sat Nov 20 20:23:55 2010
+Access Time:	Sat Nov 20 20:23:55 2010
+Modified Time:	Sat Nov 20 20:23:55 2010
+File Path:	C:\Windows\system32\WINSPOOL.DRV
+
+File Name:	WS2HELP.dll
+Dll Version:	6.01.7600.16385
+File Size:	4608
+Create Time:	Mon Jul 13 17:10:28 2009
+Access Time:	Mon Jul 13 17:10:28 2009
+Modified Time:	Mon Jul 13 18:34:12 2009
+File Path:	C:\Windows\system32\WS2HELP.dll
+
+File Name:	WS2_32.dll
+Dll Version:	6.01.7601.17514
+File Size:	297984
+Create Time:	Sat Nov 20 20:24:28 2010
+Access Time:	Sat Nov 20 20:24:28 2010
+Modified Time:	Sat Nov 20 20:24:28 2010
+File Path:	C:\Windows\system32\WS2_32.dll
+
+File Name:	WSOCK32.dll
+Dll Version:	6.01.7600.16385
+File Size:	18432
+Create Time:	Mon Jul 13 17:10:30 2009
+Access Time:	Mon Jul 13 17:10:30 2009
+Modified Time:	Mon Jul 13 18:41:58 2009
+File Path:	C:\Windows\system32\WSOCK32.dll
+
+
+6. License Information
+----------------------
+
+
+
+
+License Information
++----------------------------+-------------------+---------+-----------+-------------+-------------------------+-----------+------------+---------+-----------------+--------+------------------------------+---------------+------------------+-----------------+--------------------------------------------------------------+----------------------------------------------------------------------------------+
+| Feature                    | S/W or IP Core    | Version | Expiring  | Start Date  | Floating or Node Locked | Count     | ServerName | Host Id | Host Id Matches | Notice | Issuer                       | Feature Index | License Validity | Licenses in Use | File Name                                                    | Info                                                                             |
++----------------------------+-------------------+---------+-----------+-------------+-------------------------+-----------+------------+---------+-----------------+--------+------------------------------+---------------+------------------+-----------------+--------------------------------------------------------------+----------------------------------------------------------------------------------+
+| PlanAhead                  | Tools             | 2015.03 | Permanent | 04-Mar-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 1             | Okay             | 0               | C:\.Xilinx\Xilinx.lic                                        | granisco@yahoo.com,Vivado_WebPACK,software,permanent,_175234161_0_0_418          |
+| V_WebPACK                  | Tools             | 2015.03 | Permanent | 04-Mar-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 2             | Okay             | 0               | C:\.Xilinx\Xilinx.lic                                        | granisco@yahoo.com,Vivado_WebPACK,software,permanent,_175234161_0_0_418          |
+| Vivado_WebPACK             | Tools             | 2015.03 | Permanent | 04-Mar-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 3             | Okay             | 0               | C:\.Xilinx\Xilinx.lic                                        | granisco@yahoo.com,Vivado_WebPACK,software,permanent,_175234161_0_0_418          |
+| WebPACK                    | Tools             | 2015.03 | Permanent | 04-Mar-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 4             | Okay             | 0               | C:\.Xilinx\Xilinx.lic                                        | granisco@yahoo.com,Vivado_WebPACK,software,permanent,_175234161_0_0_418          |
+| XC7Z010                    | Tools             | 2015.03 | Permanent | 04-Mar-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 5             | Okay             | 0               | C:\.Xilinx\Xilinx.lic                                        | granisco@yahoo.com,Vivado_WebPACK,software,permanent,_175234161_0_0_418          |
+| XC7Z020                    | Tools             | 2015.03 | Permanent | 04-Mar-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 6             | Okay             | 0               | C:\.Xilinx\Xilinx.lic                                        | granisco@yahoo.com,Vivado_WebPACK,software,permanent,_175234161_0_0_418          |
+| XC7Z030                    | Tools             | 2015.03 | Permanent | 04-Mar-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 7             | Okay             | 0               | C:\.Xilinx\Xilinx.lic                                        | granisco@yahoo.com,Vivado_WebPACK,software,permanent,_175234161_0_0_418          |
+| xps_tdp                    | Tools             | 2015.03 | Permanent | 04-Mar-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 8             | Okay             | 0               | C:\.Xilinx\Xilinx.lic                                        | granisco@yahoo.com,Vivado_WebPACK,software,permanent,_175234161_0_0_418          |
+| 10_100_mb_eth_mac          | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 9             | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,10_100_mb_eth_mac,ip,permanent,_0_0_0          |
+| axi_usb2_device            | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 10            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,axi_usb2_device,ip,permanent,_0_0_0            |
+| can                        | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 11            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,can,ip,permanent,_0_0_0                        |
+| cpri                       | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 12            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,cpri,ip,permanent,_0_0_0                       |
+| displayport                | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 13            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,displayport,ip,permanent,_0_0_0                |
+| eth_avb_endpoint           | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 14            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,eth_avb_endpoint,ip,permanent,_0_0_0           |
+| jesd204                    | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 15            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,jesd204,ip,permanent,_0_0_0                    |
+| pci32                      | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 16            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,pci32,ip,permanent,_0_0_0                      |
+| pci64                      | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 17            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,pci64,ip,permanent,_0_0_0                      |
+| pl4                        | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 18            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,pl4,ip,permanent,_0_0_0                        |
+| spdif                      | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 19            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,spdif,ip,permanent,_0_0_0                      |
+| ten_gig_eth_mac            | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 20            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,ten_gig_eth_mac,ip,permanent,_0_0_0            |
+| ten_gig_eth_pcs_pma_basekr | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 21            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,ten_gig_eth_pcs_pma_basekr,ip,permanent,_0_0_0 |
+| tri_mode_eth_mac           | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 22            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,tri_mode_eth_mac,ip,permanent,_0_0_0           |
+| v_ccm                      | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 23            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_ccm,ip,permanent,_0_0_0                      |
+| v_cresample                | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 24            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_cresample,ip,permanent,_0_0_0                |
+| v_deinterlacer             | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 25            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_deinterlacer,ip,permanent,_0_0_0             |
+| v_enhance                  | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 26            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_enhance,ip,permanent,_0_0_0                  |
+| v_gamma                    | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 27            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_gamma,ip,permanent,_0_0_0                    |
+| v_osd                      | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 28            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_osd,ip,permanent,_0_0_0                      |
+| v_rgb2ycrcb                | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 29            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_rgb2ycrcb,ip,permanent,_0_0_0                |
+| v_scaler                   | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 30            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_scaler,ip,permanent,_0_0_0                   |
+| v_smpte2022_12_rx          | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 31            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_smpte2022_12_rx,ip,permanent,_0_0_0          |
+| v_smpte2022_12_tx          | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 32            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_smpte2022_12_tx,ip,permanent,_0_0_0          |
+| v_smpte2022_56_rx          | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 33            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_smpte2022_56_rx,ip,permanent,_0_0_0          |
+| v_smpte2022_56_tx          | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 34            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_smpte2022_56_tx,ip,permanent,_0_0_0          |
+| v_ycrcb2rgb                | IP:Design_Linking | 2014.06 | Permanent | 29-May-2014 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 35            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\Xilinx.lic     | License_Type:Design_Linking;ipman,v_ycrcb2rgb,ip,permanent,_0_0_0                |
+| PCIE_BLK_PLUS              | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 36            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,PCIE_BLK_PLUS,ip,permanent,_ANY          |
+| PCIE_BLK_PLUS_classic      | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 37            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| RGB2YCRCB                  | IP:Bought         | 2013.10 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 38            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,RGB2YCRCB,ip,permanent,_ANY              |
+| RGB2YCRCB_classic          | IP:Bought         | 2013.10 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 39            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| S6_PCIE                    | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 40            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,S6_PCIE,ip,permanent,_ANY                |
+| S6_PCIE_classic            | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 41            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| TC                         | IP:Bought         | 2013.10 | Permanent | 24-Sep-2013 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 42            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,TC,ip,permanent,_ANY                     |
+| TC_classic                 | IP:Bought         | 2013.10 | Permanent | 24-Sep-2013 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 43            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| TPG                        | IP:Bought         | 2013.10 | Permanent | 24-Sep-2013 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 44            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,TPG,ip,permanent,_ANY                    |
+| TPG_classic                | IP:Bought         | 2013.10 | Permanent | 24-Sep-2013 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 45            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| V4_EMAC                    | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 46            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,V4_EMAC,ip,permanent,_ANY                |
+| V4_EMAC_classic            | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 47            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| V5_EMAC                    | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 48            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,V5_EMAC,ip,permanent,_ANY                |
+| V5_EMAC_classic            | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 49            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| V6_EMAC                    | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 50            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,V6_EMAC,ip,permanent,_ANY                |
+| V6_EMAC_classic            | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 51            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| V6_PCIE                    | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 52            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,V6_PCIE,ip,permanent,_ANY                |
+| V6_PCIE_classic            | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 53            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| XAUI                       | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 54            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,XAUI,ip,permanent,_ANY                   |
+| XAUI_classic               | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 55            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| YCRCB2RGB                  | IP:Bought         | 2013.10 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 56            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,YCRCB2RGB,ip,permanent,_ANY              |
+| YCRCB2RGB_classic          | IP:Bought         | 2013.10 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 57            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| pcie_blk_plus_v1           | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 58            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| s6_pcie_v1                 | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 59            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| ten_gig_eth_pcs_pma        | IP:Bought         | 2012.04 | Permanent | 21-Mar-2012 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc                   | 60            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;ipman,ten_gig_eth_pcs_pma,ip,permanent,_0_0_0                |
+| v4_emac_v4                 | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 61            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| v5_emac_v1                 | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 62            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| v6_emac_v1                 | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 63            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| v6_pcie_v1                 | IP:Bought         | 2010.08 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 64            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| v_rgb2ycrcb                | IP:Bought         | 2013.10 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 65            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,RGB2YCRCB,ip,permanent,_ANY              |
+| v_rgb2ycrcb_v2             | IP:Bought         | 2013.10 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 66            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| v_tc                       | IP:Bought         | 2013.10 | Permanent | 24-Sep-2013 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 67            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,TC,ip,permanent,_ANY                     |
+| v_tc_v1                    | IP:Bought         | 2013.10 | Permanent | 24-Sep-2013 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 68            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| v_tpg                      | IP:Bought         | 2013.10 | Permanent | 24-Sep-2013 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 69            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,TPG,ip,permanent,_ANY                    |
+| v_tpg_v1                   | IP:Bought         | 2013.10 | Permanent | 24-Sep-2013 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 70            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| v_ycrcb2rgb                | IP:Bought         | 2013.10 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 71            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought;Xilinx_Free_IP_Core,YCRCB2RGB,ip,permanent,_ANY              |
+| v_ycrcb2rgb_v2             | IP:Bought         | 2013.10 | Permanent | 9-Aug-2009  | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 72            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| xaui_v3_0                  | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 73            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| xaui_v4_0                  | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 74            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| xaui_v5_0                  | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 75            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| xaui_v6                    | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 76            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| xaui_v7                    | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 77            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
+| xaui_v8                    | IP:Bought         | 2010.08 | Permanent | 16-Aug-2009 | Nodelocked              | Uncounted |            | ANY     | Yes             |        | Xilinx Inc, ip_license_admin | 78            | Okay             | 0               | C:\Xilinx\Vivado\2014.2\data\ip\core_licenses\XilinxFree.lic | License_Type:Bought                                                              |
++----------------------------+-------------------+---------+-----------+-------------+-------------------------+-----------+------------+---------+-----------------+--------+------------------------------+---------------+------------------+-----------------+--------------------------------------------------------------+----------------------------------------------------------------------------------+
+
+

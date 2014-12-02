@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Tue Aug 26 17:37:07 2014
+# Process ID: 9660
+# Log file: D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/webtalk/vivado.log
+# Journal file: D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.sdk/webtalk\vivado.jou
+#-----------------------------------------------------------
+source "C:/Users/Jim/AppData/Roaming/Xilinx/Vivado/init.tcl"
+source sdk.tcl

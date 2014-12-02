@@ -1,0 +1,42 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.3 (win64) Build 1034051 Fri Oct  3 17:14:12 MDT 2014
+| Date         : Mon Oct 20 22:44:04 2014
+| Host         : Viper running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconstant_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xlconstant_0_2 (xilinx.com:ip:xlconstant:1.1) to (Rev. 1)
+
+
+
+
+
+
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.2 (win64) Build 932637 Wed Jun 11 13:33:10 MDT 2014
+| Date         : Wed Jul 23 12:27:22 2014
+| Host         : Viper running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+-----------------------------------------------------------------------------------
+
+Upgrade Log for IP 'system_xlconstant_0_2'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of system_xlconstant_0_2 from xilinx.com:ip:xlconstant:1.0 to xilinx.com:ip:xlconstant:1.1
+
+2. Upgrade messages
+-------------------
+
+Renamed port const to dout
+

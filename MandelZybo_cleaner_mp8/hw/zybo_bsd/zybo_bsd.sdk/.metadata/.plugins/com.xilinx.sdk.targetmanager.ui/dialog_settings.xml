@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="system_wrapper_hw_platform_1-runResetZynq"/>
+	<item value="Local" key="system_wrapper_hw_platform_0-target"/>
+	<item value="system_wrapper_hw_platform_1" key="programfpga.hwplatform"/>
+	<item value="Local" key="system_wrapper_hw_platform_1-target"/>
+	<item value="" key="system_wrapper_hw_platform_1-bmmFile"/>
+	<item value="system_wrapper.bit" key="system_wrapper_hw_platform_1-bitFile"/>
+	<item value="" key="system_wrapper_hw_platform_0-bmmFile"/>
+	<item value="system_wrapper.bit" key="system_wrapper_hw_platform_0-bitFile"/>
+	<item value="true" key="system_wrapper_hw_platform_0-runResetZynq"/>
+</section>

@@ -1,0 +1,16 @@
+Copyright 1986-2014 Xilinx, Inc. All Rights Reserved.
+--------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2014.3.1 (win64) Build 1034051 Fri Oct  3 17:14:12 MDT 2014
+| Date         : Mon Dec 01 20:14:54 2014
+| Host         : Viper running 64-bit Service Pack 1  (build 7601)
+| Command      : upgrade_ip
+| Device       : xc7z010clg400-1
+--------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'async_fifo_32x32'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of async_fifo_32x32 (xilinx.com:ip:fifo_generator:12.0) from (Rev. 1) to (Rev. 2)
+

@@ -1,0 +1,1001 @@
+#-----------------------------------------------------------
+# Vivado v2014.2 (64-bit)
+# SW Build 932637 on Wed Jun 11 13:33:10 MDT 2014
+# IP Build 924643 on Fri May 30 09:20:16 MDT 2014
+# Start of session at: Mon Aug 25 00:21:41 2014
+# Process ID: 9088
+# Log file: D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.runs/impl_11/system_wrapper.vdi
+# Journal file: D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.runs/impl_11\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:\Users\Jim\AppData\Roaming/Xilinx/Vivado/init.tcl'
+source -notrace "C:/Users/Jim/AppData/Roaming/Xilinx/Vivado/init.tcl"
+source system_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 844 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2014.2
+Loading clock regions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/ClockBuffers.xml
+Loading clock placement rules from C:/Xilinx/Vivado/2014.2/data/parts/xilinx/zynq/ClockPlacerRules.xml
+Loading package pin functions from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/zynq/PinFunctions.xml...
+Loading package from C:/Xilinx/Vivado/2014.2/data\parts/xilinx/zynq/zynq/xc7z010/clg400/Package.xml
+Loading io standards from C:/Xilinx/Vivado/2014.2/data\./parts/xilinx/zynq/IOStandards.xml
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1.xdc] for cell 'system_i/axi_vdma_1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1.xdc] for cell 'system_i/axi_vdma_1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_processing_system7_0_0/system_processing_system7_0_0.xdc] for cell 'system_i/processing_system7_0/inst'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0_0/system_proc_sys_reset_0_0.xdc] for cell 'system_i/proc_sys_reset_0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0_0/system_proc_sys_reset_0_0.xdc] for cell 'system_i/proc_sys_reset_0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0_0/system_proc_sys_reset_0_0_board.xdc] for cell 'system_i/proc_sys_reset_0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_0_0/system_proc_sys_reset_0_0_board.xdc] for cell 'system_i/proc_sys_reset_0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_1_0/system_proc_sys_reset_1_0.xdc] for cell 'system_i/proc_sys_reset_1'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_1_0/system_proc_sys_reset_1_0.xdc] for cell 'system_i/proc_sys_reset_1'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_1_0/system_proc_sys_reset_1_0_board.xdc] for cell 'system_i/proc_sys_reset_1'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_1_0/system_proc_sys_reset_1_0_board.xdc] for cell 'system_i/proc_sys_reset_1'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_2_0/system_proc_sys_reset_2_0.xdc] for cell 'system_i/proc_sys_reset_2'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_2_0/system_proc_sys_reset_2_0.xdc] for cell 'system_i/proc_sys_reset_2'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_2_0/system_proc_sys_reset_2_0_board.xdc] for cell 'system_i/proc_sys_reset_2'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_proc_sys_reset_2_0/system_proc_sys_reset_2_0_board.xdc] for cell 'system_i/proc_sys_reset_2'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/constrs_1/new/timing.xdc]
+INFO: [Timing 38-35] Done setting XDC timing constraints. [D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/constrs_1/new/timing.xdc:12]
+INFO: [Timing 38-2] Deriving generated clocks [D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/constrs_1/new/timing.xdc:12]
+get_clocks: Time (s): cpu = 00:00:14 ; elapsed = 00:00:13 . Memory (MB): peak = 1015.879 ; gain = 445.191
+Finished Parsing XDC File [D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/constrs_1/new/timing.xdc]
+Parsing XDC File [D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/constrs_1/new/physical.xdc]
+Finished Parsing XDC File [D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/constrs_1/new/physical.xdc]
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1_clocks.xdc] for cell 'system_i/axi_vdma_1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_axi_vdma_1_1/system_axi_vdma_1_1_clocks.xdc] for cell 'system_i/axi_vdma_1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_2/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_3/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_4/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_0_5/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_0/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_5/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_4/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_3/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_2/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_1/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_AXI_MandelRISC_5_1/src/async_fifo_32x32/async_fifo_32x32/async_fifo_32x32_clocks.xdc] for cell 'system_i/AXI_MandelRISC_0/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/pixel_fifo1/U0'
+Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_auto_us_0/system_auto_us_0_clocks.xdc] for cell 'system_i/axi_interconnect_0/s01_couplers/auto_us/inst'
+Finished Parsing XDC File [d:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.srcs/sources_1/bd/system/ip/system_auto_us_0/system_auto_us_0_clocks.xdc] for cell 'system_i/axi_interconnect_0/s01_couplers/auto_us/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 65 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 2 instances
+  OBUFDS => OBUFDS: 4 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 58 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+link_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:31 . Memory (MB): peak = 1032.711 ; gain = 852.113
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [Drc 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.380 . Memory (MB): peak = 1032.711 ; gain = 0.000
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: bf126fdb
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1032.711 ; gain = 0.000
+
+Phase 2 Constant Propagation
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 2 load pin(s).
+INFO: [Opt 31-10] Eliminated 872 cells.
+Phase 2 Constant Propagation | Checksum: 1004f17e3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1032.711 ; gain = 0.000
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 4817 unconnected nets.
+INFO: [Opt 31-140] Inserted 0 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 0 OBUFs to IO ports without IO buffers.
+INFO: [Opt 31-11] Eliminated 1871 unconnected cells.
+Phase 3 Sweep | Checksum: 10b6cc22b
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1032.711 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 10b6cc22b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1032.711 ; gain = 0.000
+Implement Debug Cores | Checksum: 70a7dddf
+Logic Optimization | Checksum: 70a7dddf
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Will skip clock gating for clocks with period < 3.13 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 2 BRAM(s) out of a total of 11 has been updated to save power.
+    Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 22
+Ending PowerOpt Patch Enables Task | Checksum: 10b6cc22b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1097.453 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 10b6cc22b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:04 . Memory (MB): peak = 1097.453 ; gain = 64.742
+INFO: [Common 17-83] Releasing license: Implementation
+27 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1097.453 ; gain = 64.742
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.345 . Memory (MB): peak = 1097.453 ; gain = 0.000
+Command: place_design -directive ExtraNetDelay_high
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command place_design
+INFO: [Drc 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'ExtraNetDelay_high' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Runtime Estimator
+Phase 1 Placer Runtime Estimator | Checksum: 7076991b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.204 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2 Placer Initialization
+
+Phase 2.1 Placer Initialization Core
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2.1.1 Mandatory Logic Optimization
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.046 . Memory (MB): peak = 1097.453 ; gain = 0.000
+Phase 2.1.1 Mandatory Logic Optimization | Checksum: 4346417c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.345 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2.1.2 Build Super Logic Region (SLR) Database
+Phase 2.1.2 Build Super Logic Region (SLR) Database | Checksum: 4346417c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.361 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2.1.3 Add Constraints
+Phase 2.1.3 Add Constraints | Checksum: 4346417c
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.363 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2.1.4 Build Shapes/ HD Config
+
+Phase 2.1.4.1 Build Macros
+Phase 2.1.4.1 Build Macros | Checksum: 11319bd78
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1097.453 ; gain = 0.000
+Phase 2.1.4 Build Shapes/ HD Config | Checksum: 11319bd78
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2.1.5 IO Placement/ Clock Placement/ Build Placer Device
+
+Phase 2.1.5.1 Pre-Place Cells
+Phase 2.1.5.1 Pre-Place Cells | Checksum: 4346417c
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1097.453 ; gain = 0.000
+WARNING: [Place 30-12] An IO Bus FIXED_IO_mio with more than one IO standard is found. Components associated with this bus are: 
+	FIXED_IO_mio[53] of IOStandard LVCMOS18
+	FIXED_IO_mio[52] of IOStandard LVCMOS18
+	FIXED_IO_mio[51] of IOStandard LVCMOS18
+	FIXED_IO_mio[50] of IOStandard LVCMOS18
+	FIXED_IO_mio[49] of IOStandard LVCMOS18
+	FIXED_IO_mio[48] of IOStandard LVCMOS18
+	FIXED_IO_mio[47] of IOStandard LVCMOS18
+	FIXED_IO_mio[46] of IOStandard LVCMOS18
+	FIXED_IO_mio[45] of IOStandard LVCMOS18
+	FIXED_IO_mio[44] of IOStandard LVCMOS18
+	FIXED_IO_mio[43] of IOStandard LVCMOS18
+	FIXED_IO_mio[42] of IOStandard LVCMOS18
+	FIXED_IO_mio[41] of IOStandard LVCMOS18
+	FIXED_IO_mio[40] of IOStandard LVCMOS18
+	FIXED_IO_mio[39] of IOStandard LVCMOS18
+	FIXED_IO_mio[38] of IOStandard LVCMOS18
+	FIXED_IO_mio[37] of IOStandard LVCMOS18
+	FIXED_IO_mio[36] of IOStandard LVCMOS18
+	FIXED_IO_mio[35] of IOStandard LVCMOS18
+	FIXED_IO_mio[34] of IOStandard LVCMOS18
+	FIXED_IO_mio[33] of IOStandard LVCMOS18
+	FIXED_IO_mio[32] of IOStandard LVCMOS18
+	FIXED_IO_mio[31] of IOStandard LVCMOS18
+	FIXED_IO_mio[30] of IOStandard LVCMOS18
+	FIXED_IO_mio[29] of IOStandard LVCMOS18
+	FIXED_IO_mio[28] of IOStandard LVCMOS18
+	FIXED_IO_mio[27] of IOStandard HSTL_I_18
+	FIXED_IO_mio[26] of IOStandard HSTL_I_18
+	FIXED_IO_mio[25] of IOStandard HSTL_I_18
+	FIXED_IO_mio[24] of IOStandard HSTL_I_18
+	FIXED_IO_mio[23] of IOStandard HSTL_I_18
+	FIXED_IO_mio[22] of IOStandard HSTL_I_18
+	FIXED_IO_mio[21] of IOStandard HSTL_I_18
+	FIXED_IO_mio[20] of IOStandard HSTL_I_18
+	FIXED_IO_mio[19] of IOStandard HSTL_I_18
+	FIXED_IO_mio[18] of IOStandard HSTL_I_18
+	FIXED_IO_mio[17] of IOStandard HSTL_I_18
+	FIXED_IO_mio[16] of IOStandard HSTL_I_18
+	FIXED_IO_mio[15] of IOStandard LVCMOS18
+	FIXED_IO_mio[14] of IOStandard LVCMOS18
+	FIXED_IO_mio[13] of IOStandard LVCMOS18
+	FIXED_IO_mio[12] of IOStandard LVCMOS18
+	FIXED_IO_mio[11] of IOStandard LVCMOS18
+	FIXED_IO_mio[10] of IOStandard LVCMOS18
+	FIXED_IO_mio[9] of IOStandard LVCMOS18
+	FIXED_IO_mio[8] of IOStandard LVCMOS33
+	FIXED_IO_mio[7] of IOStandard LVCMOS18
+	FIXED_IO_mio[6] of IOStandard LVCMOS33
+	FIXED_IO_mio[5] of IOStandard LVCMOS33
+	FIXED_IO_mio[4] of IOStandard LVCMOS33
+	FIXED_IO_mio[3] of IOStandard LVCMOS33
+	FIXED_IO_mio[2] of IOStandard LVCMOS33
+	FIXED_IO_mio[1] of IOStandard LVCMOS33
+	FIXED_IO_mio[0] of IOStandard LVCMOS18
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 2.1.5.2 IO & Clk Clean Up
+Phase 2.1.5.2 IO & Clk Clean Up | Checksum: 4346417c
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2.1.5.3 Implementation Feasibility check On IDelay
+Phase 2.1.5.3 Implementation Feasibility check On IDelay | Checksum: 4346417c
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2.1.5.4 Commit IO Placement
+Phase 2.1.5.4 Commit IO Placement | Checksum: 11f9c6a3
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1097.453 ; gain = 0.000
+Phase 2.1.5 IO Placement/ Clock Placement/ Build Placer Device | Checksum: e1cd429f
+
+Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 1097.453 ; gain = 0.000
+
+Phase 2.1.6 Build Placer Netlist Model
+
+Phase 2.1.6.1 Place Init Design
+
+Phase 2.1.6.1.1 Init Lut Pin Assignment
+Phase 2.1.6.1.1 Init Lut Pin Assignment | Checksum: 1036f344e
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 2.1.6.1.2 Build Clock Data
+Phase 2.1.6.1.2 Build Clock Data | Checksum: 11b61f9d5
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:12 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 2.1.6.1.3 setBudgets in placeInitDesign
+Phase 2.1.6.1.3 setBudgets in placeInitDesign | Checksum: 1b57179ed
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:13 . Memory (MB): peak = 1117.504 ; gain = 20.051
+Phase 2.1.6.1 Place Init Design | Checksum: 19b3e30b8
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 1117.504 ; gain = 20.051
+Phase 2.1.6 Build Placer Netlist Model | Checksum: 19b3e30b8
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 2.1.7 Constrain Clocks/Macros
+
+Phase 2.1.7.1 Constrain Global/Regional Clocks
+Phase 2.1.7.1 Constrain Global/Regional Clocks | Checksum: 28d58a6ca
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 1117.504 ; gain = 20.051
+Phase 2.1.7 Constrain Clocks/Macros | Checksum: 1ed66d6d0
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 1117.504 ; gain = 20.051
+Phase 2.1 Placer Initialization Core | Checksum: 1ed66d6d0
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 1117.504 ; gain = 20.051
+Phase 2 Placer Initialization | Checksum: 1ed66d6d0
+
+Time (s): cpu = 00:00:23 ; elapsed = 00:00:14 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 3 Global Placement
+Phase 3 Global Placement | Checksum: 247b5650b
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:00:58 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 4 Detail Placement
+
+Phase 4.1 Commit Multi Column Macros
+Phase 4.1 Commit Multi Column Macros | Checksum: 247b5650b
+
+Time (s): cpu = 00:01:51 ; elapsed = 00:00:58 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 4.2 Commit Most Macros & LUTRAMs
+Phase 4.2 Commit Most Macros & LUTRAMs | Checksum: 289a5e0eb
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:04 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 4.3 Area Swap Optimization
+Phase 4.3 Area Swap Optimization | Checksum: 24b1142c3
+
+Time (s): cpu = 00:02:02 ; elapsed = 00:01:05 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 4.4 Timing Path Optimizer
+Phase 4.4 Timing Path Optimizer | Checksum: 2f3d681d1
+
+Time (s): cpu = 00:02:06 ; elapsed = 00:01:06 . Memory (MB): peak = 1117.504 ; gain = 20.051
+
+Phase 4.5 Commit Small Macros & Core Logic
+
+Phase 4.5.1 setBudgets
+Phase 4.5.1 setBudgets | Checksum: 2c57a1949
+
+Time (s): cpu = 00:02:06 ; elapsed = 00:01:07 . Memory (MB): peak = 1117.504 ; gain = 20.051
+Phase 4.5 Commit Small Macros & Core Logic | Checksum: 2423e81e9
+
+Time (s): cpu = 00:02:15 ; elapsed = 00:01:15 . Memory (MB): peak = 1135.191 ; gain = 37.738
+
+Phase 4.6 Re-assign LUT pins
+Phase 4.6 Re-assign LUT pins | Checksum: 2423e81e9
+
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:17 . Memory (MB): peak = 1135.977 ; gain = 38.523
+Phase 4 Detail Placement | Checksum: 2423e81e9
+
+Time (s): cpu = 00:02:17 ; elapsed = 00:01:17 . Memory (MB): peak = 1135.977 ; gain = 38.523
+
+Phase 5 Post Placement Optimization and Clean-Up
+
+Phase 5.1 PCOPT Shape updates
+Phase 5.1 PCOPT Shape updates | Checksum: 262046588
+
+Time (s): cpu = 00:02:18 ; elapsed = 00:01:17 . Memory (MB): peak = 1137.617 ; gain = 40.164
+
+Phase 5.2 Post Placement Optimization
+
+Phase 5.2.1 Post Placement Timing Optimization
+
+Phase 5.2.1.1 Restore Best Placement
+Phase 5.2.1.1 Restore Best Placement | Checksum: 23b22abb8
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:02:32 . Memory (MB): peak = 1145.988 ; gain = 48.535
+INFO: [Place 30-746] Post Placement Timing Summary WNS=-5.287. For the most accurate timing information please run report_timing.
+Phase 5.2.1 Post Placement Timing Optimization | Checksum: 23b22abb8
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:02:32 . Memory (MB): peak = 1145.988 ; gain = 48.535
+Phase 5.2 Post Placement Optimization | Checksum: 23b22abb8
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:02:32 . Memory (MB): peak = 1145.988 ; gain = 48.535
+
+Phase 5.3 Post Placement Cleanup
+Phase 5.3 Post Placement Cleanup | Checksum: 23b22abb8
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:02:33 . Memory (MB): peak = 1145.988 ; gain = 48.535
+
+Phase 5.4 Placer Reporting
+
+Phase 5.4.1 Restore STA
+Phase 5.4.1 Restore STA | Checksum: 23b22abb8
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:02:33 . Memory (MB): peak = 1145.988 ; gain = 48.535
+Phase 5.4 Placer Reporting | Checksum: 23b22abb8
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:02:33 . Memory (MB): peak = 1145.988 ; gain = 48.535
+
+Phase 5.5 Final Placement Cleanup
+Phase 5.5 Final Placement Cleanup | Checksum: 29a49217c
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:02:33 . Memory (MB): peak = 1145.988 ; gain = 48.535
+Phase 5 Post Placement Optimization and Clean-Up | Checksum: 29a49217c
+
+Time (s): cpu = 00:03:33 ; elapsed = 00:02:33 . Memory (MB): peak = 1145.988 ; gain = 48.535
+Ending Placer Task | Checksum: 2509b0be8
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:02:33 . Memory (MB): peak = 1145.988 ; gain = 48.535
+INFO: [Common 17-83] Releasing license: Implementation
+36 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:03:34 ; elapsed = 00:02:34 . Memory (MB): peak = 1145.988 ; gain = 48.535
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1145.988 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1145.988 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.295 . Memory (MB): peak = 1145.988 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+Phase 1 Physical Synthesis Initialization | Checksum: 29516d66d
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:04 . Memory (MB): peak = 1154.141 ; gain = 8.152
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.057 . Memory (MB): peak = 1154.141 ; gain = 0.000
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.287 | TNS=-1281.352 |
+
+Phase 2 Fanout Optimization
+INFO: [Physopt 32-76] Pass 1. Identified 8 candidate nets for fanout optimization.
+INFO: [Physopt 32-601] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[0]. Net driver system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_10 was replaced.
+INFO: [Physopt 32-601] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[2]. Net driver system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_8 was replaced.
+INFO: [Physopt 32-601] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[1]. Net driver system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_9 was replaced.
+INFO: [Physopt 32-601] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[3]. Net driver system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_7 was replaced.
+INFO: [Physopt 32-601] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[0]. Net driver system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_10 was replaced.
+INFO: [Physopt 32-601] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[1]. Net driver system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_9 was replaced.
+INFO: [Physopt 32-601] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[2]. Net driver system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_8 was replaced.
+INFO: [Physopt 32-601] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[3]. Net driver system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_7 was replaced.
+INFO: [Physopt 32-29] End Pass 1. Optimized 0 net. Created 0 new instance.
+
+Phase 2 Fanout Optimization | Checksum: 29516d66d
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:07 . Memory (MB): peak = 1154.195 ; gain = 8.207
+
+Phase 3 Placement Based Optimization
+INFO: [Physopt 32-660] Identified 36 candidate nets for placement-based optimization.
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[0].  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_10
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_r1.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_r1_reg
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_acc[30]_i_1.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/acc[30]_i_1
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_35.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_35
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_57.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_57
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_31.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_31
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_34.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_34
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_37.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_37
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[2].  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_8
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[1].  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_9
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/p_0_in_0[1].  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/ir_reg[13]
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_54.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_54
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/p_0_in_0[0].  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/ir_reg[12]
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_53.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_53
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_27.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_27
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_56.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_56
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_55.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_55
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_30.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_30
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_28.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_28
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_36.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_36
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_33.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_33
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[3].  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_7
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_49.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_49
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/p_1_in[0].  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/ir_reg[32]
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_48.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_48
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/p_1_in[1].  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/ir_reg[33]
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_23.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_23
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_52.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_52
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_51.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_51
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_26.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_26
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_addr[0].  Did not re-place instance system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_reg_0_15_0_5_i_10
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/p_1_in[0].  Did not re-place instance system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/ir_reg[32]
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_acc[18]_i_1.  Did not re-place instance system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/acc[18]_i_1
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/n_0_prod31_h_inferred_i_57.  Did not re-place instance system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/prod31_h_inferred_i_57
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/O35.  Did not re-place instance system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/acc_reg[30]
+INFO: [Physopt 32-662] Processed net system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/O29.  Did not re-place instance system_i/AXI_MandelRISC_6/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/acc_reg[18]
+INFO: [Physopt 32-661] Optimized 0 nets.  Re-placed 0 instances.
+Phase 3 Placement Based Optimization | Checksum: 29516d66d
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 1154.609 ; gain = 8.621
+
+Phase 4 Rewire
+INFO: [Physopt 32-246] Starting Signal Push optimization...
+INFO: [Physopt 32-241] No nets found for rewiring (Signal Push) optimization.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.042 . Memory (MB): peak = 1154.609 ; gain = 0.000
+Phase 4 Rewire | Checksum: 29516d66d
+
+Time (s): cpu = 00:00:33 ; elapsed = 00:00:18 . Memory (MB): peak = 1154.609 ; gain = 8.621
+
+Phase 5 Critical Cell Optimization
+INFO: [Physopt 32-46] Identified 3 candidate nets for critical-cell optimization.
+INFO: [Physopt 32-81] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/rfile_rd_r1. Replicated 1 times.
+INFO: [Physopt 32-572] Net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/p_0_in_0[1] was not replicated.
+Resolution: phys_opt_design can be forced to replicate a net driver using the option -force_replication_on_nets <list of net objects>.
+INFO: [Physopt 32-81] Processed net system_i/AXI_MandelRISC_7/inst/AXI_MandelRISC_v1_0_M00_AXI_inst/mandelrisc1/p_0_in_0[0]. Replicated 1 times.
+INFO: [Physopt 32-232] Optimized 2 nets. Created 2 new instances.
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=-5.277 | TNS=-1281.291 |
+Phase 5 Critical Cell Optimization | Checksum: 26fbc4bf3
+
+Time (s): cpu = 00:00:35 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.402 ; gain = 15.414
+
+Phase 6 DSP Register Optimization
+INFO: [Physopt 32-456] No candidate cells for DSP register optimization found in the design.
+Phase 6 DSP Register Optimization | Checksum: 26fbc4bf3
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.402 ; gain = 15.414
+
+Phase 7 BRAM Register Optimization
+INFO: [Physopt 32-526] No candidate cells for BRAM register optimization found in the design
+Phase 7 BRAM Register Optimization | Checksum: 26fbc4bf3
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.402 ; gain = 15.414
+
+Phase 8 Shift Register Optimization
+INFO: [Physopt 32-677] No candidate cells for Shift Register optimization found in the design
+Phase 8 Shift Register Optimization | Checksum: 26fbc4bf3
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.402 ; gain = 15.414
+
+Phase 9 Critical Pin Optimization
+INFO: [Physopt 32-606] Identified 21 candidate nets for critical-pin optimization.
+INFO: [Physopt 32-608] Optimized 0 net.  Swapped 0 pin.
+Phase 9 Critical Pin Optimization | Checksum: 26fbc4bf3
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.402 ; gain = 15.414
+
+Phase 10 Very High Fanout Optimization
+INFO: [Physopt 32-64] No nets found for fanout-optimization.
+Phase 10 Very High Fanout Optimization | Checksum: 26fbc4bf3
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.402 ; gain = 15.414
+
+Phase 11 BRAM Enable Optimization
+Phase 11 BRAM Enable Optimization | Checksum: 26fbc4bf3
+
+Time (s): cpu = 00:00:36 ; elapsed = 00:00:20 . Memory (MB): peak = 1161.402 ; gain = 15.414
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.053 . Memory (MB): peak = 1161.402 ; gain = 0.000
+INFO: [Physopt 32-603] Post Physical Optimization Timing Summary | WNS=-5.277 | TNS=-1281.291 |
+Ending Physical Synthesis Task | Checksum: 2d398c20f
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 1161.402 ; gain = 15.414
+INFO: [Common 17-83] Releasing license: Implementation
+102 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:58 ; elapsed = 00:00:29 . Memory (MB): peak = 1161.402 ; gain = 15.414
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1161.402 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1161.402 ; gain = 0.000
+Command: route_design -directive AdvancedSkewModeling
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z010'
+Running DRC as a precondition to command route_design
+INFO: [Drc 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'AdvancedSkewModeling'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+
+Starting Route Task
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 122d89530
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 1239.535 ; gain = 78.133
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 122d89530
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1240.395 ; gain = 78.992
+ Number of Nodes with overlaps = 0
+
+Phase 2.2 Update Timing
+Phase 2.2 Update Timing | Checksum: 65d6d848
+
+Time (s): cpu = 00:00:31 ; elapsed = 00:00:16 . Memory (MB): peak = 1310.020 ; gain = 148.617
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.13  | TNS=-1.06e+03| WHS=-0.285 | THS=-9.91  |
+
+Phase 2 Router Initialization | Checksum: 65d6d848
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:20 . Memory (MB): peak = 1310.020 ; gain = 148.617
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 11eea2e16
+
+Time (s): cpu = 00:00:52 ; elapsed = 00:00:23 . Memory (MB): peak = 1310.020 ; gain = 148.617
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 3444
+ Number of Nodes with overlaps = 190
+ Number of Nodes with overlaps = 19
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: 1ad2a8029
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:31 . Memory (MB): peak = 1310.020 ; gain = 148.617
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.36  | TNS=-1.35e+03| WHS=N/A    | THS=N/A    |
+
+
+Phase 4.1.2 GlobIterForTiming
+
+Phase 4.1.2.1 Update Timing
+Phase 4.1.2.1 Update Timing | Checksum: f58e6a1a
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1310.020 ; gain = 148.617
+
+Phase 4.1.2.2 Fast Budgeting
+Phase 4.1.2.2 Fast Budgeting | Checksum: f58e6a1a
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1316.500 ; gain = 155.098
+Phase 4.1.2 GlobIterForTiming | Checksum: 11afb3d06
+
+Time (s): cpu = 00:01:22 ; elapsed = 00:00:34 . Memory (MB): peak = 1316.500 ; gain = 155.098
+Phase 4.1 Global Iteration 0 | Checksum: 11afb3d06
+
+Time (s): cpu = 00:01:23 ; elapsed = 00:00:34 . Memory (MB): peak = 1316.500 ; gain = 155.098
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 66
+ Number of Nodes with overlaps = 19
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 1
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 11438cfaa
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1316.500 ; gain = 155.098
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.39  | TNS=-1.34e+03| WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 1ad2a8029
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:00:36 . Memory (MB): peak = 1316.500 ; gain = 155.098
+Phase 4 Rip-up And Reroute | Checksum: 1ad2a8029
+
+Time (s): cpu = 00:01:28 ; elapsed = 00:00:37 . Memory (MB): peak = 1316.500 ; gain = 155.098
+
+Phase 5 Delay CleanUp
+
+Phase 5.1 Update Timing
+Phase 5.1 Update Timing | Checksum: 1ad2a8029
+
+Time (s): cpu = 00:01:29 ; elapsed = 00:00:37 . Memory (MB): peak = 1316.500 ; gain = 155.098
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.36  | TNS=-1.35e+03| WHS=N/A    | THS=N/A    |
+
+ Number of Nodes with overlaps = 0
+Phase 5 Delay CleanUp | Checksum: 190f76cc9
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1323.074 ; gain = 161.672
+
+Phase 6 Clock Skew Optimization
+Phase 6 Clock Skew Optimization | Checksum: 190f76cc9
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:00:38 . Memory (MB): peak = 1323.074 ; gain = 161.672
+
+Phase 7 Post Hold Fix
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 190f76cc9
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1323.074 ; gain = 161.672
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.36  | TNS=-1.28e+03| WHS=-0.002 | THS=-0.002 |
+
+Phase 7 Post Hold Fix | Checksum: 465023ab
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1323.074 ; gain = 161.672
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 16.3941 %
+  Global Horizontal Routing Utilization  = 19.8272 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 76.5766%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 63.964%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 69.1176%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 76.4706%, No Congested Regions.
+Phase 8 Route finalize | Checksum: 465023ab
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1323.074 ; gain = 161.672
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 465023ab
+
+Time (s): cpu = 00:01:39 ; elapsed = 00:00:41 . Memory (MB): peak = 1323.074 ; gain = 161.672
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: d909b38b
+
+Time (s): cpu = 00:01:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1323.074 ; gain = 161.672
+
+Phase 11 Post Router Timing
+
+Phase 11.1 Update Timing
+Phase 11.1 Update Timing | Checksum: d909b38b
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:43 . Memory (MB): peak = 1323.074 ; gain = 161.672
+INFO: [Route 35-57] Estimated Timing Summary | WNS=-5.36  | TNS=-1.28e+03| WHS=0.057  | THS=0      |
+
+WARNING: [Route 35-328] Router estimated timing not met.
+Resolution: For a complete and accurate timing signoff, report_timing_summary must be run after route_design. Alternatively, route_design can be run with the -timing_summary option to enable a complete timing signoff at the end of route_design.
+Phase 11 Post Router Timing | Checksum: d909b38b
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:43 . Memory (MB): peak = 1323.074 ; gain = 161.672
+INFO: [Route 35-16] Router Completed Successfully
+Ending Route Task | Checksum: d909b38b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:43 . Memory (MB): peak = 1323.074 ; gain = 161.672
+
+Routing Is Done.
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:43 . Memory (MB): peak = 1323.074 ; gain = 161.672
+INFO: [Common 17-83] Releasing license: Implementation
+116 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:01:50 ; elapsed = 00:00:46 . Memory (MB): peak = 1323.074 ; gain = 161.672
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1323.074 ; gain = 0.000
+write_checkpoint: Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1323.074 ; gain = 0.000
+INFO: [Drc 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file D:/Xilinx/MandelZybo_cleaner_mp8/hw/zybo_bsd/zybo_bsd.runs/impl_11/system_wrapper_drc_routed.rpt.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Constraints type: SDC.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+CRITICAL WARNING: [Timing 38-282] The design failed to meet the timing requirements. Please see the timing summary report for details on the timing violations.
+report_timing_summary: Time (s): cpu = 00:00:27 ; elapsed = 00:00:07 . Memory (MB): peak = 1336.527 ; gain = 13.453
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+report_power: Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1390.383 ; gain = 53.855
+INFO: [Common 17-206] Exiting Vivado at Mon Aug 25 00:27:02 2014...

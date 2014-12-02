@@ -1,0 +1,85 @@
+Vivado Simulator 2014.2
+Copyright 1986-1999, 2001-2014 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2014.2/bin/unwrapped/win64.o/xelab.exe --debug typical --relax -i D:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src -L xil_defaultlib -L fifo_generator_v12_0 -L unisims_ver -L unimacro_ver -L secureip --snapshot MR_testbench_behav --prj D:/Xilinx/ip_repo/edit_AXI_MandelRISC_v1_0.sim/sim_1/behav/MR_testbench.prj xil_defaultlib.MR_testbench xil_defaultlib.glbl 
+Multi-threading is on. Using 6 slave threads.
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/axi_mandelrisc_1.0/hdl/AXI_MandelRISC_v1_0_S00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_MandelRISC_v1_0_S00_AXI
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/axi_mandelrisc_1.0/hdl/AXI_MandelRISC_v1_0_M00_AXI.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_MandelRISC_v1_0_M00_AXI
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/axi_mandelrisc_1.0/hdl/AXI_MandelRISC_v1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module AXI_MandelRISC_v1_0
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/mr_fpga_defines.v" into library xil_defaultlib
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/timescale.v" into library xil_defaultlib
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/mandelrisc_defines.v" into library xil_defaultlib
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/mandelrisc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mandelrisc
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/generic_fractal_rom.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module rom
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/count_leading_zeroes.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module count_leading_zeroes
+INFO: [VRFC 10-165] Analyzing Verilog file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/simulation/fifo_generator_vlog_beh.v" into library fifo_generator_v12_0
+INFO: [VRFC 10-311] analyzing module fifo_generator_vlog_beh
+INFO: [VRFC 10-311] analyzing module FIFO_GENERATOR_v12_0_CONV_VER
+INFO: [VRFC 10-311] analyzing module fifo_generator_v12_0_sync_stage
+INFO: [VRFC 10-311] analyzing module fifo_generator_v12_0_bhv_ver_as
+INFO: [VRFC 10-311] analyzing module fifo_generator_v12_0_beh_ver_ll_afifo
+INFO: [VRFC 10-311] analyzing module fifo_generator_v12_0_bhv_ver_ss
+INFO: [VRFC 10-311] analyzing module fifo_generator_v12_0_bhv_ver_preload0
+INFO: [VRFC 10-311] analyzing module fifo_generator_v12_0_axic_reg_slice
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/fifo_generator_v12_0_pkg.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/common/input_blk.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/common/output_blk.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/common/shft_wrapper.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/common/shft_ram.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/common/wr_pf_as.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/common/wr_pf_ss.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/common/rd_pe_as.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/common/rd_pe_ss.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/delay.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/bin_cntr.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/clk_x_pntrs_builtin.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/logic_builtin.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/builtin_prim.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/builtin_extdepth.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/builtin_top.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/reset_builtin.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/builtin_prim_v6.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/builtin_extdepth_v6.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/builtin_extdepth_low_latency.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/builtin_top_v6.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/builtin/fifo_generator_v12_0_builtin.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/ramfifo/bram_sync_reg.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/ramfifo/bram_fifo_rstlogic.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/ramfifo/reset_blk_ramfifo.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/ramfifo/axi_reg_slice.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/fifo_generator_top_bi_sim.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-163] Analyzing VHDL file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/fifo_generator_v12_0_synth.vhd" into library fifo_generator_v12_0
+INFO: [VRFC 10-165] Analyzing Verilog file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/fifo_generator_v12_0/hdl/fifo_generator_v12_0_top.v" into library fifo_generator_v12_0
+INFO: [VRFC 10-311] analyzing module fifo_generator_v12_0
+INFO: [VRFC 10-165] Analyzing Verilog file "d:/Xilinx/ip_repo/AXI_MandelRISC_1.0/src/async_fifo_32x32/sim/async_fifo_32x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module async_fifo_32x32
+INFO: [VRFC 10-165] Analyzing Verilog file "D:/Xilinx/ip_repo/edit_AXI_MandelRISC_v1_0.srcs/sim_1/imports/xapp1168/MR_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MR_testbench
+INFO: [VRFC 10-165] Analyzing Verilog file "C:/Xilinx/Vivado/2014.2/data/verilog/src/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.AXI_MandelRISC_v1_0_S00_AXI(C_S_...
+Compiling module xil_defaultlib.count_leading_zeroes
+Compiling module xil_defaultlib.mandelrisc
+Compiling module xil_defaultlib.rom
+Compiling module fifo_generator_v12_0.fifo_generator_v12_0_sync_stage(...
+Compiling module fifo_generator_v12_0.fifo_generator_v12_0_bhv_ver_as(...
+Compiling module fifo_generator_v12_0.fifo_generator_v12_0_bhv_ver_pre...
+Compiling module fifo_generator_v12_0.FIFO_GENERATOR_v12_0_CONV_VER(C_...
+Compiling module fifo_generator_v12_0.fifo_generator_vlog_beh(C_COMMON...
+Compiling module fifo_generator_v12_0.fifo_generator_v12_0(C_DATA_COUN...
+Compiling module xil_defaultlib.async_fifo_32x32
+Compiling module xil_defaultlib.AXI_MandelRISC_v1_0_M00_AXI(C_M_...
+Compiling module xil_defaultlib.AXI_MandelRISC_v1_0
+Compiling module xil_defaultlib.MR_testbench
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot MR_testbench_behav
