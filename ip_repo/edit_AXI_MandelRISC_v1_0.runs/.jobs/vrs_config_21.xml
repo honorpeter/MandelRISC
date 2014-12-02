@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="async_fifo_32x32_synth_1" LaunchDir="C:/Users/Jim/Xilinx/ip_repo/edit_AXI_MandelRISC_v1_0.runs/async_fifo_32x32_synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-</Runs>
-

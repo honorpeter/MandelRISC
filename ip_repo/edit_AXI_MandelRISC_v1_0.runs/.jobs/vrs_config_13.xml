@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<Runs Version="1" Minor="0">
-	<Run Id="mult_gen_2s_synth_1" LaunchDir="C:/Users/Jim/Xilinx/ip_repo/edit_AXI_MandelRISC_v1_0.runs/mult_gen_2s_synth_1" FlowId="Vivado Synthesis" FromStepId="vivado" ToStepId="vivado"/>
-</Runs>
-
